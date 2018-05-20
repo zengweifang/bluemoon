@@ -1,0 +1,23 @@
+<view class='page'>
+  <view class='my_question'>
+    <!-- <view class='my_question_desc'>问题描述</view> -->
+    <view class='my_question_desc_value'>
+      <textarea placeholder='描述问题'></textarea>
+    </view>
+  </view>
+
+   <view class="flex-wrp my_question" style="flex-direction:row;">
+    <view class="flex-item my_question_goods">关联商品</view>
+    <view class="flex-item my_question_goods_value">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          当前选择：{{array[index]}}
+        </view>
+      </picker>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view> 
+  <view class="footer-box">
+    <view class="now-buy" bindtap="submit">提交</view>
+  </view>
+</view>

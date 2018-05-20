@@ -1,0 +1,87 @@
+/* pages/admin/admin.wxss */
+.page{
+  font-size: 12px;
+}
+
+.page .admin_image{
+  background-color: #4b5ea3;
+  height: 110px;
+  line-height: 110px;
+  color: white;
+  padding-left: 30px;
+}
+
+.page .admin_image image{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+}
+
+.page .admin_image text{
+  display: inline-block;
+  margin-left: 15px
+}
+
+.page .weui-cells_after-title{
+  font-size: 12px;
+  line-height: 30px
+}
+
+.page .admin_list {
+  /* width: 100%; */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 10px
+}
+
+.page .admin_images {
+  width: 25%;
+  text-align: center
+}
+
+.page .admin_images image {
+  width:45px;
+  border-radius: 50%;
+}
+
+.page .admin_images view {
+  text-align: center;
+}
+
+.page .admin_height{
+  height: 45px;
+  line-height: 45px;
+}
+.page .admin_codes{
+  padding-left: 15px;
+  background-color: #ffffff;
+  margin-top: 1px;
+  margin-bottom: 1px
+}
+
+.page .admin_codes_l{
+  margin: 0 auto;
+  margin-left: 0
+}
+.page .admin_codes_r{
+  width: 50%;
+  float: right;
+  margin-right: 15px;
+  text-align: right
+}
+
+.discover_codes{
+  padding-left: 15px;
+  margin-bottom: 1px;
+  background-color: #ffffff
+}
+.discover_codes_l{
+  margin: 0 auto;
+  margin-left: 0
+}
+
+.discover_codes_r{
+  float: right;
+  margin-right: 15px
+}

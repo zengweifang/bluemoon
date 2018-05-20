@@ -1,0 +1,85 @@
+/* pages/answers/answers.wxss */
+.page, .answers{
+  font-size: 12px;
+  padding-bottom: 50px
+}
+
+.page .answers_bgr{
+  background-color: #ffffff;
+  padding: 20px 0
+}
+
+.answers .answers_title_image{
+  padding: 15px
+}
+
+.answers .answers_title_image image{
+  width: 30px;
+  height: 30px
+}
+
+.answers .answers_title_c{
+  width: 100%
+}
+
+.answers .answers_title_c .answers_title_c_time{
+  color: gainsboro
+}
+
+.answers .answers_title_c .answers_title_c_a text{
+  border: 1px solid gray;
+  border-radius: 50%
+}
+
+.page .answers_title_a{
+  height: 36px;
+  line-height: 36px;
+  background-color: orange;
+  color: white;
+   padding-left: 15px 
+}
+
+.page .answers_title_c_image{
+  text-align: right;
+  padding-right: 30px
+}
+.page .answers_title_c_image image{
+  width: 15px;
+  height: 15px
+}
+
+.page .answers_c{
+  margin-top: 1px;
+  padding: 25px 0 5px 0;
+  background-color: #ffffff
+}
+
+.page .answers_textarea{
+  background-color:#ffffff;
+  margin: 10px 15px;
+}
+
+.page .answers_textarea textarea{
+  padding: 15px
+}
+
+.footer-box {
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-shadow: 0 0 8rpx 0;
+}
+
+.footer-box .now-buy {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  line-height: 100rpx;
+  background-color: #4b5ea3;
+  color: #fff;
+  font-size: 34rpx;
+}

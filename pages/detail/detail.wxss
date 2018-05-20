@@ -1,0 +1,279 @@
+/* pages/detail/detail.wxss */
+
+.page{
+  padding-bottom: 50px
+}
+.slide-image {
+  width: 100%;
+  height: inherit;
+}
+
+.swiper-image {
+  height: 300px;
+}
+
+.footer-box {
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-shadow: 0 0 8rpx 0;
+}
+
+.footer-box .shop-cart-btn {
+  position: relative;
+  width: 150rpx;
+  height: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  padding-top: 26rpx;
+  font-size: 20rpx;
+  color: #acacb7;
+  box-sizing: border-box;
+  background: url("https://cdn.it120.cc/images/weappshop/cart.png") no-repeat center 21rpx;
+  background-size: 44rpx auto;
+}
+
+.footer-box .shop-cart-btn .shop-num {
+  position: absolute;
+  color: #e64340;
+  left: 80rpx;
+  top: -20rpx;
+}
+
+.footer-box .join-shop-cart {
+  text-align: center;
+  width: 300rpx;
+  height: 100%;
+  line-height: 100rpx;
+  background-color: #ff6850;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.footer-box .now-buy {
+  text-align: center;
+  height: 100%;
+  width: 300rpx;
+  line-height: 100rpx;
+  background-color: #e64340;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.weui-cells_after-title {
+  margin-top: 5px;
+  border: none;
+}
+
+.weui-cells_after-title .weui-cell_access {
+  font-size: 12px;
+  border-bottom: none;
+}
+
+.detail_content {
+  /* padding-bottom: 80px; */
+  font-size: 12px;
+}
+
+.detail_content .detail_content_stru {
+  height: 36px;
+  background-color: #fff;
+  line-height: 36px;
+}
+
+.detail_content .flex-wrp {
+  margin-bottom: 1px;
+}
+
+.detail_content .flex-wrp .price_left {
+  width: 55%;
+  background-color: #4b5ea3;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.detail_content .flex-wrp .price_middle {
+  margin: 0 auto;
+}
+
+.detail_content .flex-wrp .price_right {
+  margin-right: 15px;
+}
+
+.detail_content .flex-wrp .detail_title_left {
+  width: 8%;
+  border: 1px solid lavender;
+  margin: 5px;
+  line-height: 26px;
+  color: #4b5ea3;
+}
+
+.detail_content .flex-wrp .detail_title_middle {
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.detail_content .flex-wrp .detail_title_right {
+  float: right;
+  padding-right: 15px
+}
+
+.detail_content .flex-wrp .detail_title_right image {
+  width: 15px;
+  height: 15px;
+}
+
+.detail_content .detail_points {
+  padding-left: 15px;
+  margin-bottom: 1px;
+}
+
+.detail_content .detail_service_left {
+  padding-left: 15px;
+}
+
+.detail_content .detail_service_middle, .detail_content .detail_service_right {
+  width: 5px;
+  height: 5px;
+  background: #dedede;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  line-height: 36px;
+  position: relative;
+  top: 15px;
+  margin: 0 10px;
+}
+
+.detail_content .detail_set_meal {
+  background-color: #fff;
+  padding: 25px 0 
+}
+
+.detail_content .detail_set_meal_left {
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.detail_content .detail_set_meal_left view {
+  padding-top: 6px;
+}
+
+.detail_content .detail_set_meal_left .detail_set_meal_title_2 {
+  color: gainsboro;
+}
+
+.detail_content .detail_set_meal_left .detail_set_meal_price {
+  display: inline-block;
+}
+
+.detail_content .detail_set_meal_left .detail_set_meal_price_l {
+  color: red;
+  font-size: 14px;
+}
+
+.detail_content .detail_set_meal_left .detail_set_meal_price_r {
+  color: gainsboro;
+  padding-left: 20px;
+}
+
+.detail_content .detail_set_meal_right image {
+  width: 80px;
+  height: 80px;
+}
+
+.detail_content .detail_comb image {
+  width: 100px;
+  height: 100px;
+}
+
+.detail_content .detail_comb_l {
+  float: left;
+}
+
+.detail_content .detail_comb_m {
+  /* margin: 0 auto; */
+  line-height: 100px;
+  color: #808080
+}
+
+.detail_content .detail_comm {
+  padding: 0 15px;
+}
+
+.detail_content .detail_comm .detail_comm_l {
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.detail_content .detail_comm .detail_comm_r {
+  float: right;
+  color: red;
+}
+
+.detail_content .detail_comm_content {
+  background-color: #fff;
+  padding: 25px 15px;
+  font-size: 12px;
+}
+
+.detail_content .detail_comm_content .detail_comm_content_l {
+  padding-right: 15px;
+}
+
+.detail_content .detail_comm_content .detail_comm_content_l image {
+  height: 30px;
+  width: 30px;
+}
+
+.detail_content .detail_comm_content .detail_comm_content_r .detail_comm_content-t {
+  color: gainsboro;
+}
+
+.detail_content .detail_content_image image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.detail_contents {
+  /* margin-top: 5px; */
+  background-color: #fff;
+}
+
+.detail_contents .detail_contents_c {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.detail_contents .detail_contents_c .detail_contents_title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.detail_contents .detail_contents_image image {
+  width: 100%;
+}
+
+.detail_label {
+  height: 36px;
+  line-height: 36px;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.detail_l {
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.detail_r {
+  width: 10%;
+}
+
+.detail_margin {
+  margin-top: 15px;
+}

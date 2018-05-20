@@ -1,0 +1,57 @@
+<view class='page questions'>
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='topic'>
+    <view class='topic_title'>羊毛衫一般要怎么洗？可以机洗吗？</view>
+    <view class='topic_border'></view>
+    <view class='topic_label'>遇见更懂生活的你，一起聊聊您生活的高姿态</view>
+  </view>
+  <view class='topic_t'>阅读 1089 参与 656</view>
+  <view class="weui-tab">
+    <view class="weui-navbar">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+          <view class="weui-navbar__title">{{item}}</view>
+        </view>
+      </block>
+      <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+    </view>
+    <view class="weui-tab__panel">
+      <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
+          <view class="flex-item questions_content_image">
+            <image src='{{item.goodsUrl}}' mode="widthFix"></image>
+          </view>
+          <view class="flex-item questions_content_text" bindtap='toAnswer'>
+            <view class='questions_content_t'>{{item.title}}</view>
+            <view class='questions_content_m'>{{item.title_2}}</view>
+            <view class='questions_content_m'>{{item.time}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions2}}" bindtap='toDetail'>
+          <view class="flex-item questions_content_image">
+            <image src='{{item.goodsUrl}}' mode="widthFix"></image>
+          </view>
+          <view class="flex-item questions_content_text" bindtap='toAnswer'>
+            <view class='questions_content_t'>{{item.title}}</view>
+            <view class='questions_content_m'>{{item.title_2}}</view>
+            <view class='questions_content_m'>{{item.time}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='answers_textarea'>
+    <textarea placeholder='请发表讨论'></textarea>
+  </view>
+  <view class="footer-box" bindtap='submit'>
+    <view class="now-buy">发表讨论</view>
+  </view>
+</view>

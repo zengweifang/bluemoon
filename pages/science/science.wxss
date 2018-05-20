@@ -1,0 +1,51 @@
+/* pages/science/science.wxss */
+
+.science{
+  font-size: 12px
+}
+
+.slide-image {
+  width: 100%;
+  height: inherit;
+}
+
+.swiper-image {
+  height: 165px;
+}
+
+
+.science .science_title {
+  height: 36px;
+  background-color: #fff;
+  padding: 0 15px;
+  line-height: 36px;
+}
+
+.science .science_content {
+  background-color: #fff;
+  margin-top: 1px;
+  padding: 10px 0
+}
+
+.science .science_content_text {
+  margin: 0 auto;
+  padding-top: 10px
+}
+
+.science .science_content_image {
+  padding-right: 15px;
+}
+
+.science .science_content_image image {
+  width: 80px;
+}
+
+.science .science_content_b image{
+  width: 15px;
+  padding: 0 5px
+}
+
+.science .science_content_m, .science .science_content_b{
+  color: gainsboro;
+  font-size: 10px
+}

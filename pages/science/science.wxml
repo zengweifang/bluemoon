@@ -1,0 +1,25 @@
+<view class='page science'>
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='science_title'>你感兴趣的</view>
+  <view class="flex-wrp science_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
+    <view class="flex-item science_content_text">
+      <view class='science_content_t'>{{item.title}}</view>
+      <view class='science_content_m'>{{item.title_2}}</view>
+      <view class='science_content_b'>
+        <image src='{{item.userUrl}}' mode="widthFix"></image>
+        <text>{{item.userNums}}</text>
+        <image src='{{item.thumbupUrl}}' mode="widthFix"></image>
+        <text>{{item.thumbupNums}}</text>
+      </view>
+    </view>
+    <view class="flex-item science_content_image">
+      <image src='{{item.goodsUrl}}' mode="widthFix"></image>
+    </view>
+  </view>
+</view>

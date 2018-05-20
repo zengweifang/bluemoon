@@ -1,0 +1,67 @@
+/* pages/questions/questions.wxss */
+.slide-image {
+  width: 100%;
+  height: inherit;
+}
+
+.swiper-image {
+  height: 165px;
+}
+
+
+.questions{
+  font-size: 12px;
+  padding-bottom: 50px
+}
+.questions .questions_title{
+  height: 36px;
+  line-height: 36px;
+  padding: 0 15px;
+  background-color: #ffffff
+}
+
+.questions .questions_content{
+  margin-top: 1px;
+  padding: 25px 15px;
+  background-color: #ffffff
+}
+
+.questions .questions_content_image{
+  padding-right: 15px
+}
+
+.questions .questions_content_image image{
+  height: 30px;
+  width: 30px;
+}
+
+.questions .questions_content_text text{
+  border : 1px solid gray;
+  border-radius: 50%
+}
+
+.questions .questions_content_text .questions_content_b{
+  color: #dedede;
+  font-size: 10px
+}
+
+.footer-box {
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-shadow: 0 0 8rpx 0;
+}
+
+.footer-box .now-buy {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  line-height: 100rpx;
+  background-color: #4b5ea3;
+  color: #fff;
+  font-size: 34rpx;
+}

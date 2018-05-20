@@ -1,0 +1,32 @@
+<view class='page'>
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='discover_disco' bindtap='toTopic'>
+    <view class='discover_disco_content'>
+      <view class='discover_disco_title'>本周话题</view>
+      <view class='discover_disco_c'>
+        <view class='discover_disco_c_title'>
+          <text>羊毛衫怎么洗</text> </view>
+        <view class='discover_disco_c_topic'>66人参与话题</view>
+      </view>
+    </view>
+  </view>
+  <view class='page_comm_m'>
+    <text></text> 往期话题
+    <text></text>
+  </view>
+  <view class='discover_disco' wx:for="{{theorys}}" bindtap='toTopic'>
+    <view class='theory_header'>
+      <view class='discover_disco_c'>
+        <view class='discover_disco_c_title'>
+          <text>{{item.title}}</text> </view>
+        <view class='discover_disco_c_topic'>{{item.nums}}人参与话题</view>
+      </view>
+    </view>
+  </view>
+</view>

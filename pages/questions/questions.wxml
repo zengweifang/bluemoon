@@ -1,0 +1,23 @@
+<view class='page questions'>
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='questions_title'>为你推荐</view>
+  <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
+    <view class="flex-item questions_content_image">
+      <image src='{{item.userUrl}}' mode="widthFix"></image>
+    </view>
+    <view class="flex-item questions_content_text" bindtap='toAnswer'>
+      <view class='questions_content_t'>{{item.title}}</view>
+      <view class='questions_content_m'> <text>答</text>  {{item.title_2}}</view>
+      <view class='questions_content_b'>查看全部9个答案</view>
+    </view>
+  </view>
+  <view class="footer-box" bindtap='toAsk'>
+    <view class="now-buy">我要提问</view>
+  </view>
+</view>

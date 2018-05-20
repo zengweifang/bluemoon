@@ -1,0 +1,112 @@
+<view class="page">
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='detail_content'>
+    <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
+      <view class="flex-item price_left">￥29.99</view>
+      <view class="flex-item price_middle">999+用户评价</view>
+      <!-- <view class="weui-cell__ft weui-cell__ft_in-access price_right"></view> -->
+    </view>
+    <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
+      <view class="flex-item detail_title_left">精选</view>
+      <view class="flex-item detail_title_middle">蓝月亮 深层洁净护理洗衣液 2000kg</view>
+      <view class="flex-item detail_title_right">
+        <image src='../images/bluemoon34.jpg'></image>
+      </view>
+    </view>
+    <view class="flex-wrp  detail_label detail_margin" style="flex-direction:row;">
+      <view class="flex-item detail_l">已选择：1*2000kg</view>
+      <!-- <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view> -->
+    </view>
+    <view class="flex-wrp detail_label" style="flex-direction:row;">
+      <view class="flex-item detail_l">优惠：满99减20</view>
+      <!-- <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view> -->
+    </view>
+    <view class="detail_content_stru detail_points">积分：购买最高获取2个积分</view>
+    <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
+      <view class="flex-item detail_service_left"> 服务:</view>
+      <view class='flex-item detail_service_middle'></view>
+      <view class="flex-item">满88免邮</view>
+      <view class='flex-item detail_service_right'></view>
+      <view class="flex-item">七天无忧退换货</view>
+    </view>
+    <view class="flex-wrp detail_label detail_margin" style="flex-direction:row;">
+      <view class="flex-item detail_l">年套餐更优惠</view>
+      <!-- <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view> -->
+    </view>
+    <view class="flex-wrp detail_set_meal" style="flex-direction:row;">
+      <view class="flex-item detail_set_meal_left">
+        <view class='detail_set_meal_title'>蓝月亮 深层洁净护理洗衣液 2000kg</view>
+        <view class='detail_set_meal_title_2'>共6期，可自定义</view>
+        <view class='detail_set_meal_price detail_set_meal_price_l'>￥315</view>
+        <view class='detail_set_meal_price detail_set_meal_price_r'>省59</view>
+      </view>
+      <view class="flex-item detail_set_meal_right">
+        <image class='' src='../images/bluemoon05.jpg'></image>
+      </view>
+    </view>
+    <view class="flex-wrp detail_label detail_margin" style="flex-direction:row;">
+      <view class="flex-item detail_l">大家都在买的贴心组合</view>
+      <!-- <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view> -->
+    </view>
+    <view class='flex-wrp detail_set_meal' style='flex-direction:row;'>
+      <view class='flex-item detail_comb detail_comb_l'>
+        <image src='../images/bluemoon05.jpg'></image>
+      </view>
+      <view class='flex-item detail_comb_m'>+</view>
+      <view class='flex-item detail_comb detail_comb_r'>
+        <image src='../images/bluemoon05.jpg'></image>
+      </view>
+    </view>
+    <view class='flex-wrp detail_content_stru detail_comm detail_margin'>
+      <view class='flex-item detail_comm_l'>用户评价(+999)</view>
+      <view class='flex-item detail_comm_r'>99.99%好评</view>
+    </view>
+    <view class='flex-wrp detail_comm_content' wx:for="{{comms}}">
+      <view class='flex-item detail_comm_content_l'>
+        <image src='{{item.userUrl}}'></image>
+      </view>
+      <view class='flex-item detail_comm_content_r'>
+        <view class='detail_comm_content-n'>{{item.userName}}</view>
+        <view class='detail_comm_content-t'>{{item.time}}</view>
+        <view class='detail_comm_content-desc'>{{item.comment}}</view>
+      </view>
+    </view>
+
+    <view class="flex-wrp detail_label detail_margin" style="flex-direction:row;" bindtap='toQuestions'>
+      <view class="flex-item detail_l">问答</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view>
+    </view>
+    <view class='flex-wrp detail_comm_content' wx:for="{{questions}}">
+      <view class='flex-item detail_comm_content_l'>
+        <image src='{{item.userUrl}}'></image>
+      </view>
+      <view class='flex-item detail_comm_content_r'>
+        <view class='detail_comm_content-n'>{{item.value}}</view>
+        <view class='detail_comm_content-t'>{{item.nums}}个回答</view>
+      </view>
+    </view>
+    <view class='detail_contents detail_margin'>
+      <view class='detail_contents_c'>
+        <view class='detail_contents_title'>商品详情</view>
+        <view class='detail_contents_image'>
+          <image src='../images/bluemoon_detail01.jpg' mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class="footer-box">
+    <view class="shop-cart-btn" bindtap="goShopCar">
+      <view class="shop-num">({{shopNum}})</view>
+      购物车
+    </view>
+    <view class="join-shop-cart" bindtap="addShopCar">加入购物车</view>
+    <view class="now-buy" bindtap="tobuy">立即购买</view>
+  </view>
+</view>

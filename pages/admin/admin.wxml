@@ -1,0 +1,41 @@
+<view class='page'>
+  <view class='admin_image'>
+    <image src='../images/bluemoon28.jpeg'></image>
+    <text>蓝月亮</text>
+  </view>
+  <view class="flex-wrp discover_codes" style="flex-direction:row;">
+    <view class="flex-item discover_codes_l admin_height">我的订单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
+  </view>
+  <view class="flex-wrp admin_list" style="flex-direction:row;">
+    <view class="flex-item admin_images" bindtap='toscience'>
+      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <view>待付款</view>
+    </view>
+    <view class="flex-item admin_images" bindtap='toQuestions'>
+      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <view>待发货</view>
+    </view>
+    <view class="flex-item admin_images" bindtap='toHeatTheory'>
+      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <view>待评价</view>
+    </view>
+    <view class="flex-item admin_images">
+      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <view>售后</view>
+    </view>
+  </view>
+  <view class="flex-wrp admin_codes admin_height" style="flex-direction:row;">
+    <view class="flex-item admin_codes_l">我的积分</view>
+    <view class="flex-item admin_codes_r">888999</view>
+  </view>
+  <view class="flex-wrp discover_codes admin_height" style="flex-direction:row;">
+    <view class="flex-item discover_codes_l">我的优惠券</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
+  </view>
+  <view class="flex-wrp discover_codes admin_height" style="flex-direction:row;">
+    <view class="flex-item discover_codes_l">地址管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
+  </view>
+  <view class='admin_codes admin_height'>联系客服</view>
+</view>

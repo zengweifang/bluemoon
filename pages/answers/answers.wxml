@@ -1,0 +1,34 @@
+<view class="page">
+  <view class="flex-wrp answers answers_bgr" style="flex-direction:row;">
+    <view class="flex-item answers_title_image">
+      <image src='../images/nav/icon_tab_personal_n.png'></image>
+    </view>
+    <view class="flex-item answers_title_c">
+      <view class='answers_title_c_name'>用户</view>
+      <view class='answers_title_c_time'>2018-05-20</view>
+      <view class='answers_title_c_a'>
+        <text>问</text> 蓝月亮洗手液多了会伤手吗？
+      </view>
+    </view>
+  </view>
+  <view class='answers_title_a'>17个回答</view>
+  <view class="flex-wrp answers answers_c" style="flex-direction:row;" wx:for="{{comms}}">
+    <view class="flex-item answers_title_image">
+      <image src='{{item.userUrl}}'></image>
+    </view>
+    <view class="flex-item answers_title_c">
+      <view class='answers_title_c_name'>{{item.userName}}</view>
+      <view class='answers_title_c_time'>{{item.time}}</view>
+      <view class='answers_title_c_a'>{{item.comment}}</view>
+      <view class='answers_title_c_image'>
+        <image src='{{item.url}}'></image>
+      </view>
+    </view>
+  </view>
+  <view class='answers_textarea'>
+    <textarea placeholder='输入回答'></textarea>
+  </view>
+  <view class="footer-box" bindtap='submit'>
+    <view class="now-buy">发表回答</view>
+  </view>
+</view>

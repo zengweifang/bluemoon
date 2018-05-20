@@ -1,0 +1,13 @@
+<view class='page science_detail'>
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='science_detail_c'>
+    <view class='science_detail_title'>{{data.title}}</view>
+    <view class='science_detail_content'>{{data.text}}</view>
+  </view>
+</view>

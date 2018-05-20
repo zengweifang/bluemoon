@@ -1,0 +1,29 @@
+/* pages/science_detail/science_detail.wxss */
+.science_detail{
+  font-size: 12px;
+  background-color: #ffffff
+}
+
+.science_detail image{
+  width: 100%;
+  height: 165px
+}
+
+.swiper-image{
+  height: 165px
+}
+.science_detail .science_detail_c{
+  padding: 20px 15px
+}
+
+.science_detail .science_detail_title{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.science_detail .science_detail_content{
+  line-height: 25px
+}
+
+

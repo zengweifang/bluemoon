@@ -1,0 +1,66 @@
+/* pages/my_question/my_question.wxss */
+
+.page {
+  font-size: 12px;
+}
+
+.page .my_question {
+  padding: 15px 15px;
+  background-color: #fff;
+}
+
+.flex-wrp{
+  margin-top: 10px
+}
+
+.page .my_question .my_question_desc_value {
+  border: 1px solid #dedede
+}
+
+.page .my_question .my_question_desc_value textarea{
+  padding: 15px
+}
+
+.page .my_question_goods_box{
+  float: right
+}
+
+.my_question_goods_value{
+  width: 50%;
+  text-align: right
+}
+
+.page .my_question_goods{
+  width: 60%
+}
+
+.page .my_question_desc {
+  width: 100%;
+  height: 36px;
+  line-height: 36px
+}
+
+.page button {
+  background-color: #4b5ea3;
+}
+
+.footer-box {
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-shadow: 0 0 8rpx 0;
+}
+
+.footer-box .now-buy {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  line-height: 100rpx;
+  background-color: #4b5ea3;
+  color: #fff;
+  font-size: 34rpx;
+}
