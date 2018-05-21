@@ -41,7 +41,7 @@
 }
 
 .page .admin_images image {
-  width:45px;
+  width:30px;
   border-radius: 50%;
 }
 

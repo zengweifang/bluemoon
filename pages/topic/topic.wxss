@@ -33,14 +33,7 @@
 }
 
 .questions .questions_content_text .questions_content_b{
-  color: gainsboro
-}
-
-.questions .questions_b{
-  text-align: center;
-  height: 45px;
-  border-top: 1px solid gainsboro;
-  line-height: 45px
+  color: #b2b2b2
 }
 
 .topic{

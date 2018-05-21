@@ -6,16 +6,16 @@ Page({
    */
   data: {
     comms: [
-      { id: 1, userName: '用户01', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: '非常满意！', url: '../images/bluemoon33.jpg' },
-      { id: 2, userName: '用户02', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: 'nice!', url: '../images/bluemoon33.jpg' },
-      { id: 3, userName: '用户03', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: '非常满意！', url: '../images/bluemoon33.jpg' },
-      { id: 4, userName: '用户04', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: 'nice!', url: '../images/bluemoon33.jpg' },
-      { id: 5, userName: '用户05', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: '非常满意！', url: '../images/bluemoon33.jpg' },
-      { id: 6, userName: '用户06', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: 'nice!', url: '../images/bluemoon33.jpg' },
-      { id: 7, userName: '用户07', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: '非常满意！', url: '../images/bluemoon33.jpg' },
-      { id: 8, userName: '用户08', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: 'nice!', url: '../images/bluemoon33.jpg' },
-      { id: 9, userName: '用户09', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: '非常满意！', url: '../images/bluemoon33.jpg' },
-      { id: 10, userName: '用户10', userUrl: '../images/nav/icon_tab_personal_n.png', time: "2018-08-08", comment: 'nice!', url: '../images/bluemoon33.jpg' }
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
+      { id: 4, userName: '用户04', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
+      { id: 5, userName: '用户05', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
+      { id: 6, userName: '用户06', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
+      { id: 7, userName: '用户07', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
+      { id: 8, userName: '用户08', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
+      { id: 9, userName: '用户09', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
+      { id: 10, userName: '用户10', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' }
     ],
   },
 

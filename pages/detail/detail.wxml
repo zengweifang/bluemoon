@@ -13,10 +13,10 @@
       <!-- <view class="weui-cell__ft weui-cell__ft_in-access price_right"></view> -->
     </view>
     <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
-      <view class="flex-item detail_title_left">精选</view>
+      <image class='detail_title_left' src='../images/icon_off/label.png'></image>
       <view class="flex-item detail_title_middle">蓝月亮 深层洁净护理洗衣液 2000kg</view>
       <view class="flex-item detail_title_right">
-        <image src='../images/bluemoon34.jpg'></image>
+        <image src='../images/icon_off/collection.png'></image>
       </view>
     </view>
     <view class="flex-wrp  detail_label detail_margin" style="flex-direction:row;">

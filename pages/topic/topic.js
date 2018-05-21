@@ -15,14 +15,14 @@ Page({
       { id: 3, url: '../images/bluemoon25.jpeg' }
     ],
     questions: [
-      { id: 1, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' },
-      { id: 2, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' },
-      { id: 3, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' }
+      { id: 1, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' },
+      { id: 2, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' },
+      { id: 3, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' }
     ],
     questions2: [
-      { id: 1, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' },
-      { id: 2, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' },
-      { id: 3, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/bluemoon05.jpg' }
+      { id: 1, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' },
+      { id: 2, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' },
+      { id: 3, title: '小小邓', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' }
     ],
     tabs: ["最新", "最热"],
     activeIndex: 0,

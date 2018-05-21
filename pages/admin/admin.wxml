@@ -1,6 +1,6 @@
 <view class='page'>
   <view class='admin_image'>
-    <image src='../images/bluemoon28.jpeg'></image>
+    <image src='../images/icon_off/people.png'></image>
     <text>蓝月亮</text>
   </view>
   <view class="flex-wrp discover_codes" style="flex-direction:row;">
@@ -9,19 +9,19 @@
   </view>
   <view class="flex-wrp admin_list" style="flex-direction:row;">
     <view class="flex-item admin_images" bindtap='toscience'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/待付款.png' mode="widthFix"></image>
       <view>待付款</view>
     </view>
     <view class="flex-item admin_images" bindtap='toQuestions'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/待发货.png' mode="widthFix"></image>
       <view>待发货</view>
     </view>
     <view class="flex-item admin_images" bindtap='toHeatTheory'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/待评价.png' mode="widthFix"></image>
       <view>待评价</view>
     </view>
     <view class="flex-item admin_images">
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/售后.png' mode="widthFix"></image>
       <view>售后</view>
     </view>
   </view>

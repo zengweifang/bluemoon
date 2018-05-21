@@ -6,21 +6,32 @@
       </swiper-item>
     </block>
   </swiper>
+  <view class='discover_knowledge'>
+    <view class='discover_knowledge_baby'>婴儿衣服</view>
+    <view class="flex-wrp discover_knowledge_b" style="flex-direction:row;">
+      <view class="flex-item discover_knowledge_seasons">四季洗衣方法</view>
+      <view class="flex-item discover_knowledge_r">
+        <view class='discover_knowledge_stain'>污渍清洗</view>
+        <view class='discover_knowledge_material'>衣服材质</view>
+      </view>
+    </view>
+  </view>
+
   <view class="flex-wrp discover_images_list" style="flex-direction:row;">
     <view class="flex-item discover_images" bindtap='toscience'>
-      <image  src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/知识库.png' mode="widthFix"></image>
       <view>蓝月亮科学馆</view>
     </view>
     <view class="flex-item discover_images" bindtap='toQuestions'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/问答.png' mode="widthFix"></image>
       <view>人气问答</view>
     </view>
     <view class="flex-item discover_images" bindtap='toHeatTheory'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/讨论.png' mode="widthFix"></image>
       <view>每周热论</view>
     </view>
     <view class="flex-item discover_images">
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+      <image src='../images/icon_on/视频.png' mode="widthFix"></image>
       <view>待更新</view>
     </view>
   </view>

@@ -57,16 +57,16 @@
       更懂生活</view>
   </view>
   <view class="flex-wrp  page_margin page_types" style="flex-direction:row;">
-    <view class="flex-item page_images" bindtap='toList'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+    <view class="flex-item page_images page_images_icon" bindtap='toList'>
+      <image src='../images/icon_on/洗衣液.png' mode="widthFix"></image>
       <view>衣物清洁护理类</view>
     </view>
-    <view class="flex-item page_images" bindtap='toList'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+    <view class="flex-item page_images page_images_icon" bindtap='toList'>
+      <image src='../images/icon_on/清洁用品.png' mode="widthFix"></image>
       <view>个人清洁护理类</view>
     </view>
-    <view class="flex-item page_images" bindtap='toList'>
-      <image src='../images/bluemoon35.jpg' mode="widthFix"></image>
+    <view class="flex-item page_images page_images_icon" bindtap='toList'>
+      <image src='../images/icon_on/清洁.png' mode="widthFix"></image>
       <view>家居清洁护理类</view>
     </view>
   </view>

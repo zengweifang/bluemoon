@@ -40,8 +40,13 @@
   border-radius: 50%
 }
 
+.questions_content_text image{
+  height: 20px;
+  width: 20px;
+}
+
 .questions .questions_content_text .questions_content_b{
-  color: #dedede;
+  color: #b2b2b2;
   font-size: 10px
 }
 

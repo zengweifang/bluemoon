@@ -1,13 +1,13 @@
 <view class="page">
   <view class="flex-wrp answers answers_bgr" style="flex-direction:row;">
     <view class="flex-item answers_title_image">
-      <image src='../images/nav/icon_tab_personal_n.png'></image>
+      <image src='../images/icon_off/people.png'></image>
     </view>
     <view class="flex-item answers_title_c">
       <view class='answers_title_c_name'>用户</view>
       <view class='answers_title_c_time'>2018-05-20</view>
       <view class='answers_title_c_a'>
-        <text>问</text> 蓝月亮洗手液多了会伤手吗？
+        <image src='../images/icon_off/问.png'></image> 蓝月亮洗手液多了会伤手吗？
       </view>
     </view>
   </view>

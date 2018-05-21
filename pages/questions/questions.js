@@ -15,16 +15,16 @@ Page({
       { id: 3, url: '../images/bluemoon25.jpeg' }
     ],
     questions: [
-      { id: 1, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 2, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png'},
-      { id: 3, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 4, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 5, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png'},
-      { id: 6, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 7, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/nav/icon_tab_personal_n.png'},
-      { id: 8, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 9, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 10, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/nav/icon_tab_personal_n.png'}
+      { id: 1, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/icon_off/people.png', icon:'../images/icon_off/答.png' },
+      { id: 2, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png'},
+      { id: 3, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png' },
+      { id: 4, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png'},
+      { id: 5, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png'},
+      { id: 6, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png' },
+      { id: 7, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png'},
+      { id: 8, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png' },
+      { id: 9, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '181个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png' },
+      { id: 10, title: '蓝月亮洗手液用多了会伤手吗？', title_2: '不会', nums: '209个回答', userUrl: '../images/icon_off/people.png', icon: '../images/icon_off/答.png'}
     ]
   },
 

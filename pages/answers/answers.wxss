@@ -23,12 +23,12 @@
 }
 
 .answers .answers_title_c .answers_title_c_time{
-  color: gainsboro
+  color: #b2b2b2
 }
 
-.answers .answers_title_c .answers_title_c_a text{
-  border: 1px solid gray;
-  border-radius: 50%
+.answers_title_c_a image{
+  width: 20px;
+  height: 20px
 }
 
 .page .answers_title_a{

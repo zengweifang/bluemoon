@@ -15,14 +15,14 @@ Page({
       { id: 3, url: '../images/bluemoon05.jpg' }
     ],
     questions:[
-      { id: 1, value: '更超市的一样吗？', nums: 9, userUrl:'../images/nav/icon_tab_personal_n.png'},
-      { id: 2, value: '更超市的一样吗？', nums: 10, userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 3, value: '更超市的一样吗？', nums: 9, userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 4, value: '更超市的一样吗？', nums: 10, userUrl: '../images/nav/icon_tab_personal_n.png' }
+      { id: 1, value: '更超市的一样吗？', nums: 9, userUrl:'../images/icon_off/people.png'},
+      { id: 2, value: '更超市的一样吗？', nums: 10, userUrl: '../images/icon_off/people.png' },
+      { id: 3, value: '更超市的一样吗？', nums: 9, userUrl: '../images/icon_off/people.png' },
+      { id: 4, value: '更超市的一样吗？', nums: 10, userUrl: '../images/icon_off/people.png' }
     ],
     comms:[
-      { id: 1, userName: '用户01', time: "2018-08-08", comment: '非常满意！', userUrl: '../images/nav/icon_tab_personal_n.png' },
-      { id: 2, userName: '用户02', time: "2018-08-08", comment: 'nice!', userUrl: '../images/nav/icon_tab_personal_n.png'}
+      { id: 1, userName: '用户01', time: "2018-08-08", comment: '非常满意！', userUrl: '../images/icon_off/people.png' },
+      { id: 2, userName: '用户02', time: "2018-08-08", comment: 'nice!', userUrl: '../images/icon_off/people.png'}
     ],
     shopCarInfo:{},
     shopNum:0

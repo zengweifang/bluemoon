@@ -23,26 +23,26 @@
     </view>
     <view class="weui-tab__panel">
       <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
-        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}">
           <view class="flex-item questions_content_image">
             <image src='{{item.goodsUrl}}' mode="widthFix"></image>
           </view>
-          <view class="flex-item questions_content_text" bindtap='toAnswer'>
+          <view class="flex-item questions_content_text">
             <view class='questions_content_t'>{{item.title}}</view>
             <view class='questions_content_m'>{{item.title_2}}</view>
-            <view class='questions_content_m'>{{item.time}}</view>
+            <view class='questions_content_b'>{{item.time}}</view>
           </view>
         </view>
       </view>
       <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
-        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions2}}" bindtap='toDetail'>
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions2}}">
           <view class="flex-item questions_content_image">
             <image src='{{item.goodsUrl}}' mode="widthFix"></image>
           </view>
-          <view class="flex-item questions_content_text" bindtap='toAnswer'>
+          <view class="flex-item questions_content_text">
             <view class='questions_content_t'>{{item.title}}</view>
             <view class='questions_content_m'>{{item.title_2}}</view>
-            <view class='questions_content_m'>{{item.time}}</view>
+            <view class='questions_content_b'>{{item.time}}</view>
           </view>
         </view>
       </view>

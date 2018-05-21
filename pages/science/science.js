@@ -15,12 +15,12 @@ Page({
       { id: 3, url: '../images/bluemoon25.jpeg' }
     ],
     questions: [
-      { id: 1, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '209个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums:'88888', thumbupUrl:'../images/bluemoon34.jpg',thumbupNums:'9999'},
-      { id: 2, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums: '88888', thumbupUrl: '../images/bluemoon34.jpg', thumbupNums: '9999' },
-      { id: 3, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums: '88888', thumbupUrl: '../images/bluemoon34.jpg', thumbupNums: '9999'},
-      { id: 4, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '209个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums: '88888', thumbupUrl: '../images/bluemoon34.jpg', thumbupNums: '9999' },
-      { id: 5, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums: '88888', thumbupUrl: '../images/bluemoon34.jpg', thumbupNums: '9999' },
-      { id: 6, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/nav/icon_tab_personal_n.png', userNums: '88888', thumbupUrl: '../images/bluemoon34.jpg', thumbupNums: '9999' }
+      { id: 1, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '209个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums:'88888', thumbupUrl:'../images/icon_off/praise.png',thumbupNums:'9999'},
+      { id: 2, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums: '88888', thumbupUrl: '../images/icon_off/praise.png', thumbupNums: '9999' },
+      { id: 3, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums: '88888', thumbupUrl: '../images/icon_off/praise.png', thumbupNums: '9999'},
+      { id: 4, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '209个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums: '88888', thumbupUrl: '../images/icon_off/praise.png', thumbupNums: '9999' },
+      { id: 5, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums: '88888', thumbupUrl: '../images/icon_off/praise.png', thumbupNums: '9999' },
+      { id: 6, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '181个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums: '88888', thumbupUrl: '../images/icon_off/praise.png', thumbupNums: '9999' }
     ]
   },
 

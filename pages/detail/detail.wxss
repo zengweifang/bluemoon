@@ -75,7 +75,6 @@
 }
 
 .detail_content {
-  /* padding-bottom: 80px; */
   font-size: 12px;
 }
 
@@ -104,12 +103,12 @@
   margin-right: 15px;
 }
 
-.detail_content .flex-wrp .detail_title_left {
-  width: 8%;
-  border: 1px solid lavender;
-  margin: 5px;
-  line-height: 26px;
-  color: #4b5ea3;
+.detail_content .detail_title_left {
+  width: 20px;
+  height: 20px;
+  position:relative;
+  top:20%;
+  margin-left: 15px;
 }
 
 .detail_content .flex-wrp .detail_title_middle {

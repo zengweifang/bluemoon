@@ -13,7 +13,7 @@
     </view>
     <view class="flex-item questions_content_text" bindtap='toAnswer'>
       <view class='questions_content_t'>{{item.title}}</view>
-      <view class='questions_content_m'> <text>答</text>  {{item.title_2}}</view>
+      <view class='questions_content_m'><image src='{{item.icon}}'></image> {{item.title_2}}</view>
       <view class='questions_content_b'>查看全部9个答案</view>
     </view>
   </view>
