@@ -1,45 +1,5 @@
 <view class="page">
   <view class="page__hd">
-    <!-- <view class='page_search'>
-      <view class="weui-search-bar">
-        <view class="weui-search-bar__form">
-          <view class="weui-search-bar__box">
-            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
-            <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
-            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
-              <icon type="clear" size="14"></icon>
-            </view>
-          </view>
-          <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
-            <icon class="weui-icon-search" type="search" size="14"></icon>
-            <view class="weui-search-bar__text">搜索</view>
-          </label>
-        </view>
-        <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
-      </view>
-      <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
-        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-          <view class="weui-cell__bd">
-            <view>实时搜索文本</view>
-          </view>
-        </navigator>
-        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-          <view class="weui-cell__bd">
-            <view>实时搜索文本</view>
-          </view>
-        </navigator>
-        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-          <view class="weui-cell__bd">
-            <view>实时搜索文本</view>
-          </view>
-        </navigator>
-        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-          <view class="weui-cell__bd">
-            <view>实时搜索文本</view>
-          </view>
-        </navigator>
-      </view>
-    </view> -->
     <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{imageUrl}}">
         <swiper-item>
@@ -48,113 +8,65 @@
       </block>
     </swiper>
   </view>
-  <view class="flex-wrp page_label" style="flex-direction:row;">
-    <view class="flex-item page_label_text page_label_l">
-      蓝月亮自营</view>
-    <view class="flex-item page_label_text  page_label_m">
-      专注提高生活品质</view>
-    <view class="flex-item page_label_text page_label_r">
-      更懂生活</view>
-  </view>
-  <view class="flex-wrp  page_margin page_types" style="flex-direction:row;">
-    <view class="flex-item page_images page_images_icon" bindtap='toList'>
-      <image src='../images/icon_on/洗衣液.png' mode="widthFix"></image>
-      <view>衣物清洁护理类</view>
+  <view class='page_personal'>
+    <view class='page_label'>私人定制</view>
+    <view class='page_personal_img_t'>
+      <image src='../images/mall-img/banner2@2x.png' mode="widthFix"></image>
     </view>
-    <view class="flex-item page_images page_images_icon" bindtap='toList'>
-      <image src='../images/icon_on/清洁用品.png' mode="widthFix"></image>
-      <view>个人清洁护理类</view>
-    </view>
-    <view class="flex-item page_images page_images_icon" bindtap='toList'>
-      <image src='../images/icon_on/清洁.png' mode="widthFix"></image>
-      <view>家居清洁护理类</view>
-    </view>
-  </view>
-  <view class='page_ans_image'>
-    <image src='../images/bluemoon35.png'></image>
-  </view>
-  <view class='page_label page_tips'>
-    参与者将获得1000积分，可用于抵购商品</view>
-  <view class='page_label page_pers page_margin'>私人定制</view>
-  <view class="flex-wrp page_images_list" style="flex-direction:row;">
-    <view class="flex-item page_images" bindtap='toDetail'>
-      <image src='../images/bluemoon21.jpg' mode="widthFix"></image>
-      <view>￥19.9</view>
-    </view>
-    <view class="flex-item page_images" bindtap='toDetail'>
-      <image src='../images/bluemoon21.jpg' mode="widthFix"></image>
-      <view>￥19.9</view>
-    </view>
-    <view class="flex-item page_images" bindtap='toDetail'>
-      <image src='../images/bluemoon21.jpg' mode="widthFix"></image>
-      <view>￥19.9</view>
+    <view class="flex-wrp page_personal_b">
+      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+        <image src='../images/mall-img/组-11@2x.png' mode='widthFix'></image>
+      </view>
+      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
+        <image src='../images/mall-img/组-12@2x.png' mode='widthFix'></image>
+      </view>
     </view>
   </view>
 
-  <view class='page_label page_pers page_margin'>新品首发</view>
-  <view class='page_new page_comm' bindtap='toDetail'>
-    <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-    <view class='page_comm_n'>蓝月亮</view>
-    <view class='page_comm_p'>￥99</view>
-  </view>
-  <view class='page_new page_comm' bindtap='toDetail'>
-    <image src='../images/bluemoon21.jpg' mode='widthFix'></image>
-    <view class='page_comm_n'>蓝月亮</view>
-    <view class='page_comm_p'>￥99</view>
-  </view>
-  <view class='page_comm_m'>
-    <text></text> 人气推荐
-    <text></text>
-  </view>
-  <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
-    <view class="flex-item page_comm page_comm_l" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+  <view class="flex-wrp page_personal_b">
+    <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+      <image src='../images/mall-img/组-13@2x.png' mode='widthFix'></image>
     </view>
-    <view class="flex-item page_comm page_comm_r" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+    <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+      <image src='../images/mall-img/组-14@2x.png' mode='widthFix'></image>
+    </view>
+    <view class="flex-item page_personal_b_r" bindtap='toDetail'>
+      <image src='../images/mall-img/组-15@2x.png' mode='widthFix'></image>
     </view>
   </view>
-  <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
-    <view class="flex-item page_comm page_comm_l" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
-    </view>
-    <view class="flex-item page_comm page_comm_r" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+
+  <view class='page_personal'>
+    <view class='page_label'>新品首发</view>
+    <view class='page_personal_img_t'>
+      <image src='../images/mall-img/新品首发@2x.png' mode="widthFix"></image>
     </view>
   </view>
-  <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
-    <view class="flex-item page_comm page_comm_l" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+
+   <view class='page_personal'>
+    <view class='page_label'>人气推荐</view>
+    <view class="flex-wrp page_personal_b">
+      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+        <image src='../images/mall-img/组-11@2x.png' mode='widthFix'></image>
+      </view>
+      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
+        <image src='../images/mall-img/组-12@2x.png' mode='widthFix'></image>
+      </view>
     </view>
-    <view class="flex-item page_comm page_comm_r" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+    <view class="flex-wrp page_personal_b">
+      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+        <image src='../images/mall-img/组-21@2x.png' mode='widthFix'></image>
+      </view>
+      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
+        <image src='../images/mall-img/组-22@2x.png' mode='widthFix'></image>
+      </view>
     </view>
-  </view>
-  <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
-    <view class="flex-item page_comm page_comm_l" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
+    <view class="flex-wrp page_personal_b">
+      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
+        <image src='../images/mall-img/组-31@2x.png' mode='widthFix'></image>
+      </view>
+      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
+        <image src='../images/mall-img/组-32@2x.png' mode='widthFix'></image>
+      </view>
     </view>
-    <view class="flex-item page_comm page_comm_r" bindtap='toDetail'>
-      <image src='../images/bluemoon05.jpg' mode='widthFix'></image>
-      <view class='page_comm_n'>蓝月亮</view>
-      <view class='page_comm_p'>￥99</view>
-    </view>
-  </view>
-  <view class='page_comm_fl-window'>
-    <image src='../images/bluemoon42.png'></image>
   </view>
 </view>

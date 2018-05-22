@@ -7,12 +7,12 @@ Page({
   data: {
     interval: 5000,
     duration: 1000,
-    indicatorDots: false,
+    indicatorDots: true,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon26.jpeg' },
-      { id: 3, url: '../images/bluemoon25.jpeg' }
+      { id: 1, url: '../images/nav_@2x/banner@2x.png' },
+      { id: 2, url: '../images/nav_@2x/banner@2x.png' },
+      { id: 3, url: '../images/nav_@2x/banner@2x.png' }
     ],
     questions: [
       { id: 1, value: '深层洁净洗衣机洗衣效果如何？', nums: '209个回答', userUrl: '../images/bluemoon05.jpg' },
@@ -114,6 +114,16 @@ Page({
   todisc: function(){
     wx.navigateTo({
       url: '/pages/heat_theory/heat_theory',
+    })
+  },
+  suo: function (e) {
+    wx.navigateTo({
+      url: '../search/search',
+    })
+  }, 
+  toDiscoverDetail:function(){
+    wx.navigateTo({
+      url: '/pages/discover_detail/discover_detail',
     })
   }
 })

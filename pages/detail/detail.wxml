@@ -95,7 +95,7 @@
       <view class='detail_contents_c'>
         <view class='detail_contents_title'>商品详情</view>
         <view class='detail_contents_image'>
-          <image src='../images/bluemoon_detail01.jpg' mode="widthFix"></image>
+          <image src='../images/bluemoon_detail01.jpeg' mode="widthFix"></image>
         </view>
       </view>
     </view>

@@ -14,7 +14,9 @@
     "pages/heat_theory/heat_theory",
     "pages/topic/topic",
     "pages/admin/admin",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/discover_detail/discover_detail",
+    "pages/discover_detail_baby/discover_detail_baby"
   ],
   "window": {
     "backgroundTextStyle": "light",

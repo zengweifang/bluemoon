@@ -73,13 +73,16 @@
 }
 
 .page_label {
-  font-size: 12px;
-  height: 45px;
-  line-height: 45px;
-  background-color: #fff;
-  /* margin: 0 auto; */
-  color: #808080;
-  padding: 0 15px
+  height:45px;
+  line-height:45px;
+  color:#808080;
+  text-align:center;
+}
+.page_personal_img_t{
+  margin: 0 15px;
+}
+.page_personal_img_t image{
+  width: 100%
 }
 
 .page_label .page_label_text view {
@@ -129,6 +132,7 @@
   font-weight: bold;
   font-size: 14px;
   color: #000;
+  width: 100%
 }
 
 .weui-cells_after-title {
@@ -283,4 +287,20 @@
 .page_images_icon image{
   width: 50px;
   height: 50px
+}
+
+.page_personal_b{
+  margin: 0 15px;
+}
+.page_personal_b_l, .page_personal_b_r{
+  width: 50%;
+  border-radius: 10px
+}
+
+.page_personal_b_l{
+  margin-right:10px 
+}
+
+.page_personal_b image{ 
+  width: 100%
 }

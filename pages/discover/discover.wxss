@@ -4,14 +4,106 @@
 }
 
 .swiper-image {
-  height: 165px;
+  height: 320px;
 }
 
 .discover {
   font-size: 12px;
+  padding-bottom: 45px; 
+}
+.discover-label{
+  text-align: center;
+  padding: 10px 0;
 }
 
-.discover .discover_images_list {
+.discover-content{
+  padding: 0 15px;
+}
+
+.discover-content-card{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.discover-content-card image{
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.discover-content-title{
+  text-align: center;
+}
+
+.discover-content-left, .discover-content-right{
+  width: 50%;
+  height: 130px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #b2b2b2;  
+}
+
+.discover-content-big{
+  width: 100%;
+  height: 180px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #b2b2b2; 
+}
+
+.discover-content-left{
+  margin-right: 15px
+}
+
+
+/**搜索框*/
+.search{  
+  width: 100%;  
+}  
+.search_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin: 15px 15px;  
+}  
+.search_arr input{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 10px;  
+}  
+.bc_text {  
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}  
+  
+.sousuo {  
+  margin-left: 15rpx;  
+  width: 15%;  
+  line-height: 150%;  
+  text-align: center;  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+}  
+.page_row{  
+  display: flex;  
+  flex-direction: row  
+}  
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+} 
+/**end*/
+
+
+
+/* .discover .discover_images_list {
   background-color: #fff;
   margin:0 auto;
   padding:10px 15px;
@@ -25,7 +117,6 @@
 
 .discover .discover_images image {
   width: 45px;
-  /* border-radius: 50%; */
 }
 
 .discover .discover_images view {
@@ -35,7 +126,6 @@
 .discover .discover_disco {
   background-color: #fff;
   padding: 15px;
-  /* margin-top: 15px; */
 }
 
 .discover .discover_disco .discover_disco_content {
@@ -181,6 +271,5 @@
 .discover_knowledge .discover_knowledge_material{
   width: 100%;
   height: 50%;
-  /* border: 1px solid #d2d2d2 */
-}
+} */
 

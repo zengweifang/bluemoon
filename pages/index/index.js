@@ -9,9 +9,9 @@ Page({
     indicatorDots: false,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: '../images/bluemoon44.png' },
-      { id: 2, url: '../images/bluemoon43.png' },
-      { id: 3, url: '../images/bluemoon43.png' }
+      { id: 1, url: '../images/mall-img/banner@2x.png' },
+      { id: 2, url: '../images/mall-img/banner@2x.png' },
+      { id: 3, url: '../images/mall-img/banner@2x.png' }
     ],
     motto: 'Hello World',
     userInfo: {},

@@ -32,7 +32,7 @@
   /* width: 100%; */
   margin: 0 auto;
   background-color: #fff;
-  padding: 10px 10px
+  padding: 25px 10px
 }
 
 .page .admin_images {
@@ -42,7 +42,8 @@
 
 .page .admin_images image {
   width:30px;
-  border-radius: 50%;
+  height: 30px;
+  /* border-radius: 50%; */
 }
 
 .page .admin_images view {
@@ -74,7 +75,8 @@
 .discover_codes{
   padding-left: 15px;
   margin-bottom: 1px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  margin-top: 40px;
 }
 .discover_codes_l{
   margin: 0 auto;
@@ -84,4 +86,41 @@
 .discover_codes_r{
   float: right;
   margin-right: 15px
+}
+
+.admin_banner, .admin_banner .admin_banner_bgr_img{
+  width: 100%;
+  height: 160px
+}
+
+.admin_banner_title{
+  width: 90%;
+  box-shadow:2px 2px 5px #d2d2d2;
+  height:128px;
+  position:absolute;
+  top:60px;
+  background-color:#ffffff;
+  left:5%;
+}
+
+.admin_banner_login{
+  position: absolute;
+  width:16%;
+  left: 42%;
+  top: 28px;
+}
+
+.admin_user{
+  padding:45px;
+  text-align:center;
+  line-height: 30px;
+}
+
+.admin_moons{
+  width: 100px;
+  background-color:#B0E2FF;
+  margin:0 auto;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 14px
 }

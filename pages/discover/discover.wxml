@@ -6,6 +6,70 @@
       </swiper-item>
     </block>
   </swiper>
+  <!-- <view class='discover-label'>洗衣助手</view> -->
+  <view class='page_row'>
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="搜索" value="{{searchValue}}" />
+      </view>
+    </view>
+    <!-- <view class='sousuo'>搜索</view> -->
+  </view>
+  <view class='discover-content'>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left">
+        <image src='../images/nav_@2x/宝宝衣物@2x.png'></image>
+        <view class='discover-content-title'>宝宝衣服</view>
+      </view>
+      <view class="flex-item discover-content-right" bindtap='toDiscoverDetail'>
+        <image src='../images/nav_@2x/各种污渍@2x.png'></image>
+        <view class='discover-content-title'>各种污渍</view>
+      </view>
+    </view>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left">
+        <image src='../images/nav_@2x/衣服分类@2x.png'></image>
+        <view class='discover-content-title'>衣服分类</view>
+      </view>
+      <view class="flex-item discover-content-right">
+        <image src='../images/nav_@2x/衣服材质@2x.png'></image>
+        <view class='discover-content-title'>衣物材质</view>
+      </view>
+    </view>
+    <view class="flex-wrp discover-content-card discover-content-discuss" style="flex-direction:row;">
+      <view class="flex-item discover-content-big" bindtap='todisc'>
+        <image src='../images/nav_@2x/每周热评@2x.png'></image>
+        <view class='discover-content-title'>每周热论</view>
+      </view>
+    </view>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left" bindtap='toscience'>
+        <image src='../images/nav_@2x/蓝月亮科学馆@2x.png'></image>
+        <view class='discover-content-title'>蓝月亮科学馆</view>
+      </view>
+      <view class="flex-item discover-content-right" bindtap='toQuestions'>
+        <image src='../images/nav_@2x/人气问答@2x.png'></image>
+        <view class='discover-content-title'>人气问答</view>
+      </view>
+    </view>
+    <!-- <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left">
+        <image src='../images/bluemoon48.jpeg'></image>
+        <view class='discover-content-title'>小视频</view>
+      </view>
+    </view> -->
+  </view>
+</view>
+
+<!-- <view class="page discover">
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
   <view class='discover_knowledge'>
     <view class='discover_knowledge_baby'>婴儿衣服</view>
     <view class="flex-wrp discover_knowledge_b" style="flex-direction:row;">
@@ -72,4 +136,4 @@
       <view class='detail_comm_content_t'>{{item.nums}}个回答</view>
     </view>
   </view>
-</view>
+</view> -->

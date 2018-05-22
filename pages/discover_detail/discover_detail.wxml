@@ -1,0 +1,13 @@
+<view class='disc_detail'>
+  <view class='dic_detail_banner'>
+    <image src='../images/bluemoon27.jpeg'></image>
+  </view>
+  <view class='dic_detail_swiper'>
+    <scroll-view scroll-x class="dic_detail_swiper_scroll">
+      <view class='dic_detail_swiper_item {{item.item_hasbgr}}' wx:for="{{list}}" style='display: inline-block' bindtap='showResult' data-id="{{item.id}}">{{item.label}}</view>
+    </scroll-view>
+  </view>
+  <view class='dic_detail_result'>
+    <view wx:for="{{result.text}}">{{item}}</view>
+  </view>
+</view>

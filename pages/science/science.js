@@ -11,8 +11,8 @@ Page({
     autoplay: true,
     imageUrl: [
       { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon26.jpeg' },
-      { id: 3, url: '../images/bluemoon25.jpeg' }
+      { id: 2, url: '../images/bluemoon27.jpeg' },
+      { id: 3, url: '../images/bluemoon27.jpeg' }
     ],
     questions: [
       { id: 1, title: '荧光增白剂科学知识', title_2: '你不知道的小科学', nums: '209个回答', goodsUrl: '../images/bluemoon05.jpg', userUrl: '../images/icon_off/people.png', userNums:'88888', thumbupUrl:'../images/icon_off/praise.png',thumbupNums:'9999'},

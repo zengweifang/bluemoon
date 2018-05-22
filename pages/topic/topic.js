@@ -11,8 +11,8 @@ Page({
     autoplay: true,
     imageUrl: [
       { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon26.jpeg' },
-      { id: 3, url: '../images/bluemoon25.jpeg' }
+      { id: 2, url: '../images/bluemoon27.jpeg' },
+      { id: 3, url: '../images/bluemoon27.jpeg' }
     ],
     questions: [
       { id: 1, title: '曾大大', title_2: '我从来不洗！！！', time: '2018-08-08', goodsUrl: '../images/icon_off/people.png' },

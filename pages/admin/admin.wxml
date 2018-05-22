@@ -1,31 +1,58 @@
 <view class='page'>
-  <view class='admin_image'>
-    <image src='../images/icon_off/people.png'></image>
-    <text>蓝月亮</text>
+  <view class='admin_banner'>
+    <image class='admin_banner_bgr_img' src='../images/nav_@2x/banner背景@2x.png'></image>
+    <view class='admin_banner_title'>
+      <view class='admin_user'>
+        <view class='admin_name'>曾大大</view>
+        <view class='admin_moons'>
+          <view>月星值666</view>
+        </view>
+      </view>
+    </view>
+    <image class='admin_banner_login' mode="widthFix" src='../images/nav_@2x/login@2x.png'></image>
   </view>
   <view class="flex-wrp discover_codes" style="flex-direction:row;">
     <view class="flex-item discover_codes_l admin_height">我的订单</view>
     <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
   </view>
-  <view class="flex-wrp admin_list" style="flex-direction:row;">
+  <view class="flex-wrp admin_list" style="flex-direction:row;margin-bottom:15px">
     <view class="flex-item admin_images" bindtap='toscience'>
-      <image src='../images/icon_on/待付款.png' mode="widthFix"></image>
+      <image src='../images/nav_@2x/待付款@2x.png'></image>
       <view>待付款</view>
     </view>
     <view class="flex-item admin_images" bindtap='toQuestions'>
-      <image src='../images/icon_on/待发货.png' mode="widthFix"></image>
+      <image src='../images/nav_@2x/待发货@2x.png'></image>
       <view>待发货</view>
     </view>
     <view class="flex-item admin_images" bindtap='toHeatTheory'>
-      <image src='../images/icon_on/待评价.png' mode="widthFix"></image>
+      <image src='../images/nav_@2x/待评价@2x.png'></image>
       <view>待评价</view>
     </view>
     <view class="flex-item admin_images">
-      <image src='../images/icon_on/售后.png' mode="widthFix"></image>
+      <image src='../images/nav_@2x/售后@2x.png'></image>
       <view>售后</view>
     </view>
   </view>
-  <view class="flex-wrp admin_codes admin_height" style="flex-direction:row;">
+
+  <view class="flex-wrp admin_list" style="flex-direction:row;">
+    <view class="flex-item admin_images" bindtap='toscience'>
+      <image src='../images/nav_@2x/积分@2x.png'></image>
+      <view>我的积分</view>
+    </view>
+    <view class="flex-item admin_images" bindtap='toQuestions'>
+      <image src='../images/nav_@2x/优惠券@2x.png'></image>
+      <view>我的优惠券</view>
+    </view>
+    <view class="flex-item admin_images" bindtap='toHeatTheory'>
+      <image src='../images/nav_@2x/地址管理@2x.png'></image>
+      <view>地址管理</view>
+    </view>
+    <view class="flex-item admin_images">
+      <image src='../images/nav_@2x/联系客服@2x.png'></image>
+      <view>联系客服</view>
+    </view>
+  </view>
+  <!-- <view class="flex-wrp admin_codes admin_height" style="flex-direction:row;">
     <view class="flex-item admin_codes_l">我的积分</view>
     <view class="flex-item admin_codes_r">888999</view>
   </view>
@@ -37,5 +64,5 @@
     <view class="flex-item discover_codes_l">地址管理</view>
     <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
   </view>
-  <view class='admin_codes admin_height'>联系客服</view>
+  <view class='admin_codes admin_height'>联系客服</view> -->
 </view>

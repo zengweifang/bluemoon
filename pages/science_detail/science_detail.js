@@ -11,8 +11,8 @@ Page({
     autoplay: true,
     imageUrl: [
       { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon26.jpeg' },
-      { id: 3, url: '../images/bluemoon25.jpeg' }
+      { id: 2, url: '../images/bluemoon27.jpeg' },
+      { id: 3, url: '../images/bluemoon27.jpeg' }
     ],
     data:{
       title:'什么是荧光增白剂？',
