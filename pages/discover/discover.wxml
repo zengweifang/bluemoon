@@ -2,7 +2,7 @@
   <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imageUrl}}">
       <swiper-item>
-        <image src="{{item.url}}" class="slide-image" />
+        <image src="{{item.url}}" class="slide-image"  />
       </swiper-item>
     </block>
   </swiper>
@@ -18,38 +18,38 @@
   </view>
   <view class='discover-content'>
     <view class="flex-wrp discover-content-card" style="flex-direction:row;">
-      <view class="flex-item discover-content-left">
-        <image src='../images/nav_@2x/宝宝衣物@2x.png'></image>
+      <view class="flex-item discover-content-left" bindtap='toBabyDetail'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E5%AE%9D%E5%AE%9D%E8%A1%A3%E7%89%A9@2x.png'></image>
         <view class='discover-content-title'>宝宝衣服</view>
       </view>
       <view class="flex-item discover-content-right" bindtap='toDiscoverDetail'>
-        <image src='../images/nav_@2x/各种污渍@2x.png'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E5%90%84%E7%A7%8D%E6%B1%A1%E6%B8%8D@2x.png'></image>
         <view class='discover-content-title'>各种污渍</view>
       </view>
     </view>
     <view class="flex-wrp discover-content-card" style="flex-direction:row;">
-      <view class="flex-item discover-content-left">
-        <image src='../images/nav_@2x/衣服分类@2x.png'></image>
+      <view class="flex-item discover-content-left" bindtap='toCategory'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%A1%A3%E6%9C%8D%E5%88%86%E7%B1%BB@2x.png'></image>
         <view class='discover-content-title'>衣服分类</view>
       </view>
-      <view class="flex-item discover-content-right">
-        <image src='../images/nav_@2x/衣服材质@2x.png'></image>
+      <view class="flex-item discover-content-right" bindtap='toMaterial'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%A1%A3%E6%9C%8D%E6%9D%90%E8%B4%A8@2x.png'></image>
         <view class='discover-content-title'>衣物材质</view>
       </view>
     </view>
     <view class="flex-wrp discover-content-card discover-content-discuss" style="flex-direction:row;">
       <view class="flex-item discover-content-big" bindtap='todisc'>
-        <image src='../images/nav_@2x/每周热评@2x.png'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png'></image>
         <view class='discover-content-title'>每周热论</view>
       </view>
     </view>
     <view class="flex-wrp discover-content-card" style="flex-direction:row;">
       <view class="flex-item discover-content-left" bindtap='toscience'>
-        <image src='../images/nav_@2x/蓝月亮科学馆@2x.png'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%93%9D%E6%9C%88%E4%BA%AE%E7%A7%91%E5%AD%A6%E9%A6%86@2x.png'></image>
         <view class='discover-content-title'>蓝月亮科学馆</view>
       </view>
       <view class="flex-item discover-content-right" bindtap='toQuestions'>
-        <image src='../images/nav_@2x/人气问答@2x.png'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E4%BA%BA%E6%B0%94%E9%97%AE%E7%AD%94@2x.png'></image>
         <view class='discover-content-title'>人气问答</view>
       </view>
     </view>

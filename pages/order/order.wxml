@@ -10,7 +10,7 @@
 
   <view class="flex-wrp order_goods" style="flex-direction:row;" wx:for="{{goods}}">
     <view class="flex-item order_goods_l">
-      <image src='{{item.url}}'></image>
+      <image src='{{item.url}}' mode='widthFix'></image>
     </view>
     <view class="flex-item order_goods_m">
       <view>{{item.goodsName}}</view>

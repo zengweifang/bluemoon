@@ -9,21 +9,16 @@ Page({
     duration: 1000,
     indicatorDots: false,
     autoplay: true,
-    imageUrl: [
-      { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon26.jpeg' },
-      { id: 3, url: '../images/bluemoon25.jpeg' }
-    ],
     list:[
-      { id: 1, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88'},
-      { id: 2, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88'},
-      { id: 3, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 4, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 5, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 6, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 7, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 8, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
-      { id: 9, url: '../images/bluemoon05.jpg', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88'},
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88'},
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 4, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 5, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 6, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 7, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 8, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' },
+      { id: 9, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png', title1: '芦荟抑菌洗手液', title2: '杀菌抑菌 清爽保湿 滋润双手', price: '28.88' }
     ]
   },
 

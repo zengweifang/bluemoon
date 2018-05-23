@@ -16,7 +16,9 @@
     "pages/admin/admin",
     "pages/list/list",
     "pages/discover_detail/discover_detail",
-    "pages/discover_detail_baby/discover_detail_baby"
+    "pages/discover_detail_baby/discover_detail_baby",
+    "pages/discover_detail_material/discover_detail_material",
+    "pages/discover_detail_category/discover_detail_category"
   ],
   "window": {
     "backgroundTextStyle": "light",

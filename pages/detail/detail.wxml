@@ -47,7 +47,7 @@
         <view class='detail_set_meal_price detail_set_meal_price_r'>省59</view>
       </view>
       <view class="flex-item detail_set_meal_right">
-        <image class='' src='../images/bluemoon05.jpg'></image>
+        <image class='' src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' mode="widthFix"></image>
       </view>
     </view>
     <view class="flex-wrp detail_label detail_margin" style="flex-direction:row;">
@@ -56,11 +56,11 @@
     </view>
     <view class='flex-wrp detail_set_meal' style='flex-direction:row;'>
       <view class='flex-item detail_comb detail_comb_l'>
-        <image src='../images/bluemoon05.jpg'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png' mode="widthFix"></image>
       </view>
       <view class='flex-item detail_comb_m'>+</view>
       <view class='flex-item detail_comb detail_comb_r'>
-        <image src='../images/bluemoon05.jpg'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-22@2x.png' mode="widthFix"></image>
       </view>
     </view>
     <view class='flex-wrp detail_content_stru detail_comm detail_margin'>
@@ -95,7 +95,7 @@
       <view class='detail_contents_c'>
         <view class='detail_contents_title'>商品详情</view>
         <view class='detail_contents_image'>
-          <image src='../images/bluemoon_detail01.jpeg' mode="widthFix"></image>
+          <image src='http://p95v2ft9v.bkt.clouddn.com/mall/bluemoon_detail01.jpeg' mode="widthFix"></image>
         </view>
       </view>
     </view>

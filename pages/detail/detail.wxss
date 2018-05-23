@@ -181,13 +181,13 @@
 }
 
 .detail_content .detail_set_meal_right image {
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  /* height: 80px; */
 }
 
 .detail_content .detail_comb image {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  /* height: 100px; */
 }
 
 .detail_content .detail_comb_l {

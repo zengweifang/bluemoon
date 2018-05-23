@@ -1,6 +1,6 @@
 <view class='page'>
   <view class='admin_banner'>
-    <image class='admin_banner_bgr_img' src='../images/nav_@2x/banner背景@2x.png'></image>
+    <image class='admin_banner_bgr_img' src='http://p95v2ft9v.bkt.clouddn.com/admin/banner%E8%83%8C%E6%99%AF@2x.png'></image>
     <view class='admin_banner_title'>
       <view class='admin_user'>
         <view class='admin_name'>曾大大</view>

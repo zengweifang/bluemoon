@@ -27,8 +27,8 @@
 }
 
 .order_content .order_goods .order_goods_l image{
-  width: 80px;
-  height: 80px
+  width: 110px;
+  /* height: 80px */
 }
 
 .order_content .order_goods .order_goods_m{

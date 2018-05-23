@@ -11,34 +11,34 @@
   <view class='page_personal'>
     <view class='page_label'>私人定制</view>
     <view class='page_personal_img_t'>
-      <image src='../images/mall-img/banner2@2x.png' mode="widthFix"></image>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/banner2@2x.png' mode="widthFix"></image>
     </view>
     <view class="flex-wrp page_personal_b">
       <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='../images/mall-img/组-11@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' mode='widthFix'></image>
       </view>
       <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='../images/mall-img/组-12@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png' mode='widthFix'></image>
       </view>
     </view>
   </view>
 
   <view class="flex-wrp page_personal_b">
-    <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-      <image src='../images/mall-img/组-13@2x.png' mode='widthFix'></image>
+    <view class="flex-item page_personal_b_l" bindtap='toList'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-13@2x.png' mode='widthFix'></image>
     </view>
-    <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-      <image src='../images/mall-img/组-14@2x.png' mode='widthFix'></image>
+    <view class="flex-item page_personal_b_l" bindtap='toList'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-14@2x.png' mode='widthFix'></image>
     </view>
-    <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-      <image src='../images/mall-img/组-15@2x.png' mode='widthFix'></image>
+    <view class="flex-item page_personal_b_r" bindtap='toList'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-15@2x.png' mode='widthFix'></image>
     </view>
   </view>
 
   <view class='page_personal'>
     <view class='page_label'>新品首发</view>
     <view class='page_personal_img_t'>
-      <image src='../images/mall-img/新品首发@2x.png' mode="widthFix"></image>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png' mode="widthFix"></image>
     </view>
   </view>
 
@@ -46,26 +46,26 @@
     <view class='page_label'>人气推荐</view>
     <view class="flex-wrp page_personal_b">
       <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='../images/mall-img/组-11@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' mode='widthFix'></image>
       </view>
       <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='../images/mall-img/组-12@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png' mode='widthFix'></image>
       </view>
     </view>
     <view class="flex-wrp page_personal_b">
       <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='../images/mall-img/组-21@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png' mode='widthFix'></image>
       </view>
       <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='../images/mall-img/组-22@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-22@2x.png' mode='widthFix'></image>
       </view>
     </view>
     <view class="flex-wrp page_personal_b">
       <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='../images/mall-img/组-31@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-31@2x.png' mode='widthFix'></image>
       </view>
       <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='../images/mall-img/组-32@2x.png' mode='widthFix'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-32@2x.png' mode='widthFix'></image>
       </view>
     </view>
   </view>

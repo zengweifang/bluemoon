@@ -9,9 +9,9 @@ Page({
     indicatorDots: false,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: '../images/mall-img/banner@2x.png' },
-      { id: 2, url: '../images/mall-img/banner@2x.png' },
-      { id: 3, url: '../images/mall-img/banner@2x.png' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' },
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' },
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' }
     ],
     motto: 'Hello World',
     userInfo: {},

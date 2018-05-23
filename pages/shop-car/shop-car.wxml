@@ -4,7 +4,7 @@
       <checkbox checked='true'></checkbox>
     </view>
     <view class="flex-item car_goods_m">
-      <image src='{{item.url}}'></image>
+      <image src='{{item.url}}' mode='widthFix'></image>
     </view>
     <view class="flex-item car_goods_mm">
       <view>{{item.goodsName}}</view>

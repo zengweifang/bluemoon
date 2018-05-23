@@ -14,8 +14,8 @@
 }
 
 .page .page_list .page_list_r image{
-    width: 80px;
-    height: 80px
+    width: 110px;
+    /* height: 80px */
 }
 
 .page .page_list .page_list_l{

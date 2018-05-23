@@ -10,9 +10,9 @@ Page({
     indicatorDots:true,
     autoplay:true,
     imageUrl:[
-      { id: 1, url: '../images/bluemoon05.jpg' },
-      { id: 2, url: '../images/bluemoon05.jpg' },
-      { id: 3, url: '../images/bluemoon05.jpg' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' },
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' },
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' }
     ],
     questions:[
       { id: 1, value: '更超市的一样吗？', nums: 9, userUrl:'../images/icon_off/people.png'},

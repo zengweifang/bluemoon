@@ -10,9 +10,9 @@ Page({
     indicatorDots: true,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: '../images/nav_@2x/banner@2x.png' },
-      { id: 2, url: '../images/nav_@2x/banner@2x.png' },
-      { id: 3, url: '../images/nav_@2x/banner@2x.png' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' },
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' },
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' }
     ],
     questions: [
       { id: 1, value: '深层洁净洗衣机洗衣效果如何？', nums: '209个回答', userUrl: '../images/bluemoon05.jpg' },
@@ -125,5 +125,22 @@ Page({
     wx.navigateTo({
       url: '/pages/discover_detail/discover_detail',
     })
+  },
+  toBabyDetail:function(){
+    wx.navigateTo({
+      url: '/pages/discover_detail_baby/discover_detail_baby',
+    })
+  },
+  toMaterial: function () {
+    wx.navigateTo({
+      url: '/pages/discover_detail_material/discover_detail_material',
+    })
+  },
+  toCategory: function () {
+    wx.navigateTo({
+      url: '/pages/discover_detail_category/discover_detail_category',
+    })
   }
+  
+
 })

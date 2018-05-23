@@ -10,9 +10,9 @@ Page({
     indicatorDots: false,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: '../images/bluemoon27.jpeg' },
-      { id: 2, url: '../images/bluemoon27.jpeg' },
-      { id: 3, url: '../images/bluemoon27.jpeg' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png' },
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png' },
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png' }
     ],
     data:{
       title:'什么是荧光增白剂？',

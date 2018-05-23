@@ -13,7 +13,7 @@
       <view class='page_list_price'>￥{{item.price}}</view>
     </view>
     <view class="flex-item page_list_r">
-      <image src='{{item.url}}'></image>
+      <image src='{{item.url}}' mode='widthFix'></image>
     </view>
   </view>
 </view>

@@ -1,4 +1,4 @@
-/* pages/discover_detail_baby/discover_detail_baby.wxss */
+/* pages/discover_detail_category/discover_detail_category.wxss */
 .disc_detail{
   width: 100%
 }
