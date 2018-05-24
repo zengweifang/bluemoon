@@ -1,12 +1,15 @@
 <view class='disc_detail'>
-  <view class='dic_detail_banner'>
-    <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png'></image>
+  <view style='position:absolute;right:15px'>
+    <image style='width:30px' src='http://p95v2ft9v.bkt.clouddn.com/%E5%88%86%E4%BA%AB.png' mode='widthFix'></image>
   </view>
-  <!-- <view class='dic_detail_swiper'>
+  <view class='dic_detail_banner'>
+    <image src='http://p95v2ft9v.bkt.clouddn.com/baby05.jpeg'></image>
+  </view>
+  <view class='dic_detail_swiper'>
     <scroll-view scroll-x class="dic_detail_swiper_scroll">
       <view class='dic_detail_swiper_item {{item.item_hasbgr}}' wx:for="{{list}}" style='display: inline-block' bindtap='showResult' data-id="{{item.id}}">{{item.label}}</view>
     </scroll-view>
-  </view> -->
+  </view>
   <view class='dic_detail_result'>
     <view wx:for="{{result.text}}">{{item}}</view>
   </view>

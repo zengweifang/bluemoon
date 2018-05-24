@@ -5,25 +5,74 @@ Page({
    * 页面的初始数据
    */
   data: {
-    comms: [
-      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
-      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
-      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
-      { id: 4, userName: '用户04', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
-      { id: 5, userName: '用户05', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
-      { id: 6, userName: '用户06', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
-      { id: 7, userName: '用户07', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
-      { id: 8, userName: '用户08', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' },
-      { id: 9, userName: '用户09', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '非常满意！', url: '../images/icon_off/praise.png' },
-      { id: 10, userName: '用户10', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: 'nice!', url: '../images/icon_off/praise.png' }
+    title:'',
+    comms: [],
+    comms1: [
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '建议仔细看看首页洗衣助手的 宝宝衣物哈，我都是在那学习的，宝宝的东西不能马虎', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '宝宝衣服说的很清楚啦!', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '要用 宝宝专用洗衣液', url: '../images/icon_off/praise.png' }
     ],
+    comms2: [
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '把孩子丢进去洗洗', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '少弄些水，然后打开机子，让水液从低管流出来，还可以用哦!', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '把你家的所有衣服都洗了把', url: '../images/icon_off/praise.png' },
+      { id: 4, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: ' 小孩子就调皮，要管管', url: '../images/icon_off/praise.png' }
+    ],
+    comms3: [
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '可以啊，我一直在洗', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '可以得，放心哈', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '我不知道哦，我是洗内裤的。。。', url: '../images/icon_off/praise.png' }
+    ],
+    comms4: [
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '味道挺小的，衣服洗得还算干净', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '挺干净的，味道闻起来也舒服', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '还阔以', url: '../images/icon_off/praise.png' },
+      { id: 4, userName: '用户04', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '干净', url: '../images/icon_off/praise.png' }
+    ],
+    comms5: [
+      { id: 1, userName: '用户01', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '有差别哦，个人喜好', url: '../images/icon_off/praise.png' },
+      { id: 2, userName: '用户02', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '自然味道淡一点哈!', url: '../images/icon_off/praise.png' },
+      { id: 3, userName: '用户03', userUrl: '../images/icon_off/people.png', time: "2018-08-08", comment: '有一点不一样啊', url: '../images/icon_off/praise.png' }
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options)
+    if(options.id == 1){
+      this.setData({
+        comms:this.data.comms1,
+        title:'6个月的宝宝的衣服可以用洗衣液洗吗？'
+      })
+    }
+    if (options.id == 2) {
+      this.setData({
+        comms: this.data.comms2,
+        title: '家里的孩子贪玩，一次把半瓶洗衣液给倒进洗衣机了，怎么办？'
+      })
+    }
+    if (options.id == 3) {
+      this.setData({
+        comms: this.data.comms3,
+        title: '可以洗内衣吗？'
+      })
+    }
+    if (options.id == 4) {
+      this.setData({
+        comms: this.data.comms4,
+        title: '洗得干净吗？'
+      })
+    }
+    if (options.id == 5) {
+      this.setData({
+        comms: this.data.comms5,
+        title: '自然清香和薰衣草差别大吗？'
+      })
+    }
 
+    console.log(this.data)
   },
 
   /**
@@ -76,8 +125,11 @@ Page({
   },
 
   submit: function () {
-    wx.navigateTo({
-      url: '/pages/questions/questions',
+    wx.showToast({
+      title: '提交成功',
+      icon: 'success',
+      image: '',
+      duration: 2000
     })
   }
 })

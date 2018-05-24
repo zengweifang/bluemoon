@@ -7,11 +7,6 @@
 .swiper-image {
   height: 165px;
 }
-
-.page{
-  font-size: 12px;
-}
-
 .page .discover_disco {
   padding: 10px 15px;
 }
@@ -77,4 +72,32 @@
   display: inline-block;
   width: 30%;
   margin: 0 10px
+}
+
+.discover_content{
+  padding: 10px 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px
+}
+
+.discover_title{
+  padding: 5px 0;
+  text-align: center
+}
+
+.discover_label{
+  padding: 5px 0;
+}
+
+.discover_img image{
+  width: 100%
+}
+
+.discover_result{
+  font-size: 12px;
+  padding: 5px 0;
+}
+.discover_result text{
+  display: inline-block;
+  width: 50%;
 }

@@ -7,7 +7,7 @@
       <view class='answers_title_c_name'>用户</view>
       <view class='answers_title_c_time'>2018-05-20</view>
       <view class='answers_title_c_a'>
-        <image src='../images/icon_off/问.png'></image> 蓝月亮洗手液多了会伤手吗？
+        <image src='../images/icon_off/问.png'></image> {{title}}
       </view>
     </view>
   </view>

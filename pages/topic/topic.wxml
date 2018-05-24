@@ -2,16 +2,16 @@
   <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imageUrl}}">
       <swiper-item>
-        <image src="{{item.url}}" class="slide-image" />
+        <image src="{{item.url}}" class="slide-image" mode='widthFix' />
       </swiper-item>
     </block>
   </swiper>
   <view class='topic'>
-    <view class='topic_title'>羊毛衫一般要怎么洗？可以机洗吗？</view>
+    <view class='topic_title'>{{title}}</view>
     <view class='topic_border'></view>
     <view class='topic_label'>遇见更懂生活的你，一起聊聊您生活的高姿态</view>
   </view>
-  <view class='topic_t'>阅读 1089 参与 656</view>
+  <view class='topic_t'>{{result}}</view>
   <view class="weui-tab">
     <view class="weui-navbar">
       <block wx:for="{{tabs}}" wx:key="*this">
@@ -23,7 +23,7 @@
     </view>
     <view class="weui-tab__panel">
       <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
-        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}">
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questionsL}}">
           <view class="flex-item questions_content_image">
             <image src='{{item.goodsUrl}}' mode="widthFix"></image>
           </view>
@@ -35,7 +35,7 @@
         </view>
       </view>
       <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
-        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions2}}">
+        <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questionsR}}">
           <view class="flex-item questions_content_image">
             <image src='{{item.goodsUrl}}' mode="widthFix"></image>
           </view>
@@ -49,9 +49,9 @@
     </view>
   </view>
   <view class='answers_textarea'>
-    <textarea placeholder='请发表讨论'></textarea>
+    <textarea placeholder='请发表评论'></textarea>
   </view>
   <view class="footer-box" bindtap='submit'>
-    <view class="now-buy">发表讨论</view>
+    <view class="now-buy">发表评论</view>
   </view>
 </view>

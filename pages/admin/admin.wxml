@@ -5,7 +5,7 @@
       <view class='admin_user'>
         <view class='admin_name'>曾大大</view>
         <view class='admin_moons'>
-          <view>月星值666</view>
+          <view bindtap='toRanking'>月星值666</view>
         </view>
       </view>
     </view>

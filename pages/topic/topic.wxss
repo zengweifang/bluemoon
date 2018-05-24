@@ -4,7 +4,7 @@
 }
 
 .swiper-image {
-  height: 165px;
+  height: 210px;
 }
 
 
@@ -78,11 +78,11 @@
 }
 .weui-navbar__slider{
   width: 50%;
-  color: #4b5ea3;
-  background-color: #4b5ea3
+  color: #0464f0;
+  background-color: #0464f0
 }
 .weui-navbar__item.weui-bar__item_on {
-  color: #4b5ea3
+  color: #0464f0
 }
 
 .weui-tab__content {
@@ -114,7 +114,7 @@
   height: 100%;
   width: 100%;
   line-height: 100rpx;
-  background-color: #4b5ea3;
+  background-color: #0464f0;
   color: #fff;
   font-size: 34rpx;
 }

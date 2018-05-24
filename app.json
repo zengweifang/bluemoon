@@ -18,7 +18,8 @@
     "pages/discover_detail/discover_detail",
     "pages/discover_detail_baby/discover_detail_baby",
     "pages/discover_detail_material/discover_detail_material",
-    "pages/discover_detail_category/discover_detail_category"
+    "pages/discover_detail_category/discover_detail_category",
+    "pages/ranking/ranking"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,7 +29,7 @@
   },
   "tabBar": {
     "color": "#6e6d6b",
-    "selectedColor": "#13227a",
+    "selectedColor": "#0464f0",
     "borderStyle": "white",
     "backgroundColor": "#fff",
     "box-shadow": "0 0 6px 0",

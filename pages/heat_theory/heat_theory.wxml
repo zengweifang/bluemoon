@@ -1,32 +1,29 @@
 <view class='page'>
-  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{imageUrl}}">
-      <swiper-item>
-        <image src="{{item.url}}" class="slide-image" />
-      </swiper-item>
-    </block>
-  </swiper>
-  <view class='discover_disco' bindtap='toTopic'>
-    <view class='discover_disco_content'>
-      <view class='discover_disco_title'>本周话题</view>
-      <view class='discover_disco_c'>
-        <view class='discover_disco_c_title'>
-          <text>羊毛衫怎么洗</text> </view>
-        <view class='discover_disco_c_topic'>66人参与话题</view>
-      </view>
+  <view class='discover_content' bindtap='toTopic' data-id="1">
+    <view class='discover_title'>本周话题</view>
+    <view class='discover_img'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/baby06.jpeg'></image>
+    </view>
+    <view class='discover_label'>宝宝衣服能用洗衣液/洗衣粉/肥皂吗？</view>
+    <view class='discover_result'>
+      <text>666人参与话题</text>
+      <text style='text-align:right;color:#0464f0'>我要参加</text>
     </view>
   </view>
+
   <view class='page_comm_m'>
     <text></text> 往期话题
     <text></text>
   </view>
-  <view class='discover_disco' wx:for="{{theorys}}" bindtap='toTopic'>
-    <view class='theory_header'>
-      <view class='discover_disco_c'>
-        <view class='discover_disco_c_title'>
-          <text>{{item.title}}</text> </view>
-        <view class='discover_disco_c_topic'>{{item.nums}}人参与话题</view>
-      </view>
+  <!-- <view class='discover_title'>往期话题</view> -->
+  <view class='discover_content' bindtap='toTopic' data-id="2">
+    <view class='discover_img'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/disco/13.jpeg'></image>
+    </view>
+    <view class='discover_label'>羊毛衫怎么洗?</view>
+    <view class='discover_result'>
+      <text>666人参与话题</text>
+      <text style='text-align:right;color:#0464f0'>我要参加</text>
     </view>
   </view>
 </view>

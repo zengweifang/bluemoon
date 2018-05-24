@@ -21,9 +21,10 @@
 }
 
 .questions .questions_content{
-  margin-top: 1px;
+  margin: 15px;
   padding: 25px 15px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .questions .questions_content_image{
@@ -66,7 +67,7 @@
   height: 100%;
   width: 100%;
   line-height: 100rpx;
-  background-color: #4b5ea3;
+  background-color: #0464f0;
   color: #fff;
   font-size: 34rpx;
 }

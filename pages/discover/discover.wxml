@@ -1,12 +1,11 @@
-<view class="page discover">
+ <view class="page discover">
   <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imageUrl}}">
       <swiper-item>
-        <image src="{{item.url}}" class="slide-image"  />
+        <image src="{{item.url}}" bindtap="toW" class="slide-image" />
       </swiper-item>
     </block>
   </swiper>
-  <!-- <view class='discover-label'>洗衣助手</view> -->
   <view class='page_row'>
     <view class="search">
       <view class="df search_arr">
@@ -14,8 +13,18 @@
         <input class="" disabled placeholder="搜索" value="{{searchValue}}" />
       </view>
     </view>
-    <!-- <view class='sousuo'>搜索</view> -->
   </view>
+  <view class='page_topic' bindtap='toTopic'>
+    <view class='page_topic_content'>
+      <view class='page_title'>- 本周话题 -</view>
+      <view class='page_label'>宝宝衣服能用洗衣液/洗衣粉/肥皂吗？</view>
+      <view>
+        <image style='width:28px' mode='widthFix' src='http://p95v2ft9v.bkt.clouddn.com/login@2x.png'></image>
+        <text page_title>666人参与讨论</text> </view>
+    </view>
+  </view>
+
+  <view class='discover-help'>洗衣助手</view>
   <view class='discover-content'>
     <view class="flex-wrp discover-content-card" style="flex-direction:row;">
       <view class="flex-item discover-content-left" bindtap='toBabyDetail'>
@@ -37,9 +46,10 @@
         <view class='discover-content-title'>衣物材质</view>
       </view>
     </view>
+    <view class='discover-help'>洗衣达人</view>
     <view class="flex-wrp discover-content-card discover-content-discuss" style="flex-direction:row;">
       <view class="flex-item discover-content-big" bindtap='todisc'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png'></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' mode="widthFix"></image>
         <view class='discover-content-title'>每周热论</view>
       </view>
     </view>
@@ -53,87 +63,8 @@
         <view class='discover-content-title'>人气问答</view>
       </view>
     </view>
-    <!-- <view class="flex-wrp discover-content-card" style="flex-direction:row;">
-      <view class="flex-item discover-content-left">
-        <image src='../images/bluemoon48.jpeg'></image>
-        <view class='discover-content-title'>小视频</view>
-      </view>
-    </view> -->
   </view>
 </view>
-
-<!-- <view class="page discover">
-  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{imageUrl}}">
-      <swiper-item>
-        <image src="{{item.url}}" class="slide-image" />
-      </swiper-item>
-    </block>
-  </swiper>
-  <view class='discover_knowledge'>
-    <view class='discover_knowledge_baby'>婴儿衣服</view>
-    <view class="flex-wrp discover_knowledge_b" style="flex-direction:row;">
-      <view class="flex-item discover_knowledge_seasons">四季洗衣方法</view>
-      <view class="flex-item discover_knowledge_r">
-        <view class='discover_knowledge_stain'>污渍清洗</view>
-        <view class='discover_knowledge_material'>衣服材质</view>
-      </view>
-    </view>
-  </view>
-
-  <view class="flex-wrp discover_images_list" style="flex-direction:row;">
-    <view class="flex-item discover_images" bindtap='toscience'>
-      <image src='../images/icon_on/知识库.png' mode="widthFix"></image>
-      <view>蓝月亮科学馆</view>
-    </view>
-    <view class="flex-item discover_images" bindtap='toQuestions'>
-      <image src='../images/icon_on/问答.png' mode="widthFix"></image>
-      <view>人气问答</view>
-    </view>
-    <view class="flex-item discover_images" bindtap='toHeatTheory'>
-      <image src='../images/icon_on/讨论.png' mode="widthFix"></image>
-      <view>每周热论</view>
-    </view>
-    <view class="flex-item discover_images">
-      <image src='../images/icon_on/视频.png' mode="widthFix"></image>
-      <view>待更新</view>
-    </view>
-  </view>
-  <view class='discover_disco' bindtap='todisc'>
-    <view class='discover_disco_content'>
-      <view class='discover_disco_title'>本周热论</view>
-      <view class='discover_disco_c'>
-        <view class='discover_disco_c_title'>
-          <text>羊毛衫怎么洗</text> </view>
-        <view class='discover_disco_c_topic'>66人参与话题</view>
-      </view>
-      <view class='discover_disco_b'>集赞最多前5名将有机会获得积分</view>
-    </view>
-  </view>
-  <view class="flex-wrp discover_codes" style="flex-direction:row;" bindtap='toScience'>
-    <view class="flex-item discover_codes_l">你感兴趣的</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
-  </view>
-  <view class="flex-wrp discover_intr" style="flex-direction:row;" bindtap='toDetail'>
-    <view class="flex-item discover_comm_l">
-      <view class='discover_comm_l_title'>科学小知识</view>
-      <view class='discover_comm_l_title_2'>什么是荧光白剂？</view>
-    </view>
-    <view class="flex-item discover_comm_r">
-      <image class='' src='../images/bluemoon05.jpg' mode="widthFix"></image>
-    </view>
-  </view>
-  <view class="flex-wrp discover_codes" style="flex-direction:row;" bindtap='toQuestions'>
-    <view class="flex-item discover_codes_l">大家都在问</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access discover_codes_r"></view>
-  </view>
-  <view class='flex-wrp detail_comm_content' wx:for="{{questions}}" bindtap='toaskdetail'>
-    <view class='flex-item detail_comm_content_l'>
-      <image src='{{item.userUrl}}'></image>
-    </view>
-    <view class='flex-item detail_comm_content_r'>
-      <view class='detail_comm_content_n'>{{item.value}}</view>
-      <view class='detail_comm_content_t'>{{item.nums}}个回答</view>
-    </view>
-  </view>
-</view> -->
+<view class='discover_fixed' bindtap='toQuestion'>
+  <image src='http://p95v2ft9v.bkt.clouddn.com/%E6%8F%90%E9%97%AE_1.png' style='width:40px;' mode='widthFix'></image>
+</view> 

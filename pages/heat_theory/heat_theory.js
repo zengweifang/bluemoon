@@ -79,9 +79,11 @@ Page({
   onShareAppMessage: function () {
   
   },
-  toTopic: function(){
+  toTopic: function(event){
+    console.log(event.currentTarget.dataset)
+    var id = event.currentTarget.dataset.id;
     wx.navigateTo({
-      url: '/pages/topic/topic',
+      url: '/pages/topic/topic?id='+id,
     })
   }
 })

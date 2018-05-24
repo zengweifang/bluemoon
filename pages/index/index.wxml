@@ -10,7 +10,7 @@
   </view>
   <view class='page_personal'>
     <view class='page_label'>私人定制</view>
-    <view class='page_personal_img_t'>
+    <view class='page_personal_img_t' bindtap='toDetail'>
       <image src='http://p95v2ft9v.bkt.clouddn.com/banner2@2x.png' mode="widthFix"></image>
     </view>
     <view class="flex-wrp page_personal_b">

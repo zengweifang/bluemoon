@@ -79,9 +79,10 @@ Page({
   onShareAppMessage: function () {
   
   },
-  toDetail: function(){
+  toDetail: function(e){
+    var id = e.currentTarget.dataset.id;
     wx.navigateTo({
-      url: '/pages/science_detail/science_detail',
+      url: '/pages/science_detail/science_detail?id='+id,
     })
   }
 })

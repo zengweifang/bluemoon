@@ -49,3 +49,32 @@
   color: gainsboro;
   font-size: 10px
 }
+
+.discover_content{
+  padding: 10px 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px
+}
+
+/**优化*/
+.discover_title{
+  padding: 5px 0;
+  text-align: center
+}
+
+.discover_label{
+  padding: 5px 0;
+}
+
+.discover_img image{
+  width: 100%
+}
+
+.discover_result{
+  font-size: 12px;
+  padding: 5px 0;
+}
+.discover_result text{
+  display: inline-block;
+  /* width: 50%; */
+}

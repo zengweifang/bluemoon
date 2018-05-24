@@ -140,6 +140,22 @@ Page({
     wx.navigateTo({
       url: '/pages/discover_detail_category/discover_detail_category',
     })
+  },
+  toTopic: function () {
+    wx.navigateTo({
+      url: '/pages/topic/topic?id=1',
+    })
+  },
+  toQuestion: function(){
+    wx.navigateTo({
+      url: '/pages/my_question/my_question',
+    })
+  },
+  toW: function(){
+    console.log(1)
+    wx.reLaunch({
+      url: 'https://www.wjx.cn/jq/24233092.aspx',
+    })
   }
   
 

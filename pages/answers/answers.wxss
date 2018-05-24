@@ -79,7 +79,7 @@
   height: 100%;
   width: 100%;
   line-height: 100rpx;
-  background-color: #4b5ea3;
+  background-color: #0464f0;
   color: #fff;
   font-size: 34rpx;
 }

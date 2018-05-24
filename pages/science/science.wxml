@@ -1,11 +1,8 @@
-<view class='page science'>
-  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{imageUrl}}">
-      <swiper-item>
-        <image src="{{item.url}}" class="slide-image" />
-      </swiper-item>
-    </block>
-  </swiper>
+<!-- <view class='page science'>
+  <view>
+    <view></view>
+  </view>
+
   <view class='science_title'>你感兴趣的</view>
   <view class="flex-wrp science_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
     <view class="flex-item science_content_text">
@@ -20,6 +17,35 @@
     </view>
     <view class="flex-item science_content_image">
       <image src='{{item.goodsUrl}}' mode="widthFix"></image>
+    </view>
+  </view>
+</view> -->
+
+<view class='page'>
+  <view class='discover_content' bindtap='toDetail' data-id="1">
+    <!-- <view class='discover_title'>本周话题</view> -->
+    <view class='discover_img'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/know01.jpeg'></image>
+    </view>
+    <view class='discover_label'>什么是荧光增白剂?</view>
+    <view class='discover_result'>
+      <image style='width:30px' mode="widthFix" src='http://p95v2ft9v.bkt.clouddn.com/people.png'></image>
+      <text style='display:inline-block;margin-right:10px'>666</text>
+      <image style='width:30px' mode="widthFix" src="http://p95v2ft9v.bkt.clouddn.com/like.png"></image>
+      <text>666</text>
+    </view>
+  </view>
+
+  <view class='discover_content' bindtap='toDetail' data-id="2">
+    <view class='discover_img'>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/know10.jpeg'></image>
+    </view>
+    <view class='discover_label'>蓝月亮亮白增艳洗衣液中为什么添加荧光增白剂?</view>
+    <view class='discover_result'>
+      <image style='width:30px' mode="widthFix" src='http://p95v2ft9v.bkt.clouddn.com/people.png'></image>
+      <text style='display:inline-block;margin-right:10px'>666</text>
+      <image style='width:30px' mode="widthFix" src="http://p95v2ft9v.bkt.clouddn.com/like.png"></image>
+      <text>666</text>
     </view>
   </view>
 </view>

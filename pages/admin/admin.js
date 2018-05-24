@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  toRanking:function(){
+    wx.navigateTo({
+      url: '/pages/ranking/ranking',
+    })
   }
 })
