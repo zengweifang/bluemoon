@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/discover/discover",
     "pages/index/index",
+    "pages/discover/discover",
     "pages/logs/logs",
     "pages/detail/detail",
     "pages/shop-car/shop-car",
@@ -35,13 +35,13 @@
     "box-shadow": "0 0 6px 0",
     "list": [
       {
-        "pagePath": "pages/discover/discover",
+        "pagePath": "pages/index/index",
         "iconPath": "pages/images/icon_off/homepage.png",
         "selectedIconPath": "pages/images/icon_on/homepage_fill.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/discover/discover",
         "iconPath": "pages/images/icon_off/service.png",
         "selectedIconPath": "pages/images/icon_on/service_fill.png",
         "text": "商城"

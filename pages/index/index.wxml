@@ -1,72 +1,70 @@
-<view class="page">
-  <view class="page__hd">
-    <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-      <block wx:for="{{imageUrl}}">
-        <swiper-item>
-          <image src="{{item.url}}" class="slide-image" />
-        </swiper-item>
-      </block>
-    </swiper>
-  </view>
-  <view class='page_personal'>
-    <view class='page_label'>私人定制</view>
-    <view class='page_personal_img_t' bindtap='toDetail'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/banner2@2x.png' mode="widthFix"></image>
-    </view>
-    <view class="flex-wrp page_personal_b">
-      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' mode='widthFix'></image>
-      </view>
-      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png' mode='widthFix'></image>
+ <view class="page discover">
+  <swiper class='swiper-image' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrl}}">
+      <swiper-item>
+        <image src="{{item.url}}" bindtap="toW" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='page_row'>
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="搜索" value="{{searchValue}}" />
       </view>
     </view>
   </view>
-
-  <view class="flex-wrp page_personal_b">
-    <view class="flex-item page_personal_b_l" bindtap='toList'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-13@2x.png' mode='widthFix'></image>
-    </view>
-    <view class="flex-item page_personal_b_l" bindtap='toList'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-14@2x.png' mode='widthFix'></image>
-    </view>
-    <view class="flex-item page_personal_b_r" bindtap='toList'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-15@2x.png' mode='widthFix'></image>
+  <view class='page_topic' bindtap='toTopic'>
+    <view class='page_topic_content'>
+      <view class='page_title'>- 本周话题 -</view>
+      <view class='page_label'>宝宝衣服能用洗衣液/洗衣粉/肥皂吗？</view>
+      <view>
+        <image style='width:28px' mode='widthFix' src='http://p95v2ft9v.bkt.clouddn.com/login@2x.png'></image>
+        <text page_title>666人参与讨论</text> </view>
     </view>
   </view>
 
-  <view class='page_personal'>
-    <view class='page_label'>新品首发</view>
-    <view class='page_personal_img_t'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91@2x.png' mode="widthFix"></image>
-    </view>
-  </view>
-
-   <view class='page_personal'>
-    <view class='page_label'>人气推荐</view>
-    <view class="flex-wrp page_personal_b">
-      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' mode='widthFix'></image>
+  <view class='discover-help'>洗衣助手</view>
+  <view class='discover-content'>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left" bindtap='toBabyDetail'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E5%AE%9D%E5%AE%9D%E8%A1%A3%E7%89%A9@2x.png'></image>
+        <view class='discover-content-title'>宝宝衣服</view>
       </view>
-      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-12@2x.png' mode='widthFix'></image>
+      <view class="flex-item discover-content-right" bindtap='toDiscoverDetail'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E5%90%84%E7%A7%8D%E6%B1%A1%E6%B8%8D@2x.png'></image>
+        <view class='discover-content-title'>各种污渍</view>
       </view>
     </view>
-    <view class="flex-wrp page_personal_b">
-      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png' mode='widthFix'></image>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left" bindtap='toCategory'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%A1%A3%E6%9C%8D%E5%88%86%E7%B1%BB@2x.png'></image>
+        <view class='discover-content-title'>衣服分类</view>
       </view>
-      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-22@2x.png' mode='widthFix'></image>
+      <view class="flex-item discover-content-right" bindtap='toMaterial'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%A1%A3%E6%9C%8D%E6%9D%90%E8%B4%A8@2x.png'></image>
+        <view class='discover-content-title'>衣物材质</view>
       </view>
     </view>
-    <view class="flex-wrp page_personal_b">
-      <view class="flex-item page_personal_b_l" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-31@2x.png' mode='widthFix'></image>
+    <view class='discover-help'>洗衣达人</view>
+    <view class="flex-wrp discover-content-card discover-content-discuss" style="flex-direction:row;">
+      <view class="flex-item discover-content-big" bindtap='todisc'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' mode="widthFix"></image>
+        <view class='discover-content-title'>每周热论</view>
       </view>
-      <view class="flex-item page_personal_b_r" bindtap='toDetail'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-32@2x.png' mode='widthFix'></image>
+    </view>
+    <view class="flex-wrp discover-content-card" style="flex-direction:row;">
+      <view class="flex-item discover-content-left" bindtap='toscience'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E8%93%9D%E6%9C%88%E4%BA%AE%E7%A7%91%E5%AD%A6%E9%A6%86@2x.png'></image>
+        <view class='discover-content-title'>蓝月亮科学馆</view>
+      </view>
+      <view class="flex-item discover-content-right" bindtap='toQuestions'>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/page/%E4%BA%BA%E6%B0%94%E9%97%AE%E7%AD%94@2x.png'></image>
+        <view class='discover-content-title'>人气问答</view>
       </view>
     </view>
   </view>
 </view>
+<view class='discover_fixed' bindtap='toQuestion'>
+  <image src='http://p95v2ft9v.bkt.clouddn.com/%E6%8F%90%E9%97%AE_1.png' style='width:40px;' mode='widthFix'></image>
+</view> 

@@ -1,162 +1,118 @@
-// pages/discover/discover.js
-Page({
+//index.js
+//获取应用实例
+const app = getApp()
 
-  /**
-   * 页面的初始数据
-   */
+Page({
   data: {
-    interval: 5000,
+    interval: 8000,
     duration: 1000,
-    indicatorDots: true,
+    indicatorDots: false,
     autoplay: true,
     imageUrl: [
-      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' },
-      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' },
-      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/page/banner@2x.png' }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' },
+      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' },
+      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' }
     ],
-    questions: [
-      { id: 1, value: '深层洁净洗衣机洗衣效果如何？', nums: '209个回答', userUrl: '../images/bluemoon05.jpg' },
-      { id: 2, value: '洗手液洗多了对手有伤害吗？', nums: '181个回答', userUrl: '../images/bluemoon05.jpg' }
+    motto: 'Hello World',
+    userInfo: {},
+    hasUserInfo: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    inputShowed: false,
+    inputVal: "",
+    recomm_images:[
+      { id: 1, url: '../images/bluemoon08.jpg' },
+      { id: 2, url: '../images/bluemoon08.jpg' },
+      { id: 3, url: '../images/bluemoon08.jpg' }
+    ],
+    images : [
+      { id: 1, url: '../images/bluemoon05.jpg'},
+      { id: 2, url: '../images/bluemoon05.jpg'},
+      { id: 3, url: '../images/bluemoon05.jpg' },
+      { id: 4, url: '../images/bluemoon05.jpg' },
+      { id: 5, url: '../images/bluemoon05.jpg' }
+    ],
+    goods:[
+      { id: 1, url: '../images/bluemoon05.jpg' },
+      { id: 2, url: '../images/bluemoon05.jpg' },
+      { id: 3, url: '../images/bluemoon05.jpg' },
+      { id: 4, url: '../images/bluemoon05.jpg' },
+      { id: 5, url: '../images/bluemoon05.jpg' }
     ]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  showInput: function () {
+    this.setData({
+      inputShowed: true
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  hideInput: function () {
+    this.setData({
+      inputVal: "",
+      inputShowed: false
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  clearInput: function () {
+    this.setData({
+      inputVal: ""
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  inputTyping: function (e) {
+    this.setData({
+      inputVal: e.detail.value
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  },
-
-  toscience: function(){
+  //事件处理函数
+  bindViewTap: function() {
     wx.navigateTo({
-      url: '/pages/science/science',
+      url: '../logs/logs'
     })
   },
-  toQuestions:function(){
-    wx.navigateTo({
-      url: '/pages/questions/questions',
+  onLoad: function () {
+    if (app.globalData.userInfo) {
+      this.setData({
+        userInfo: app.globalData.userInfo,
+        hasUserInfo: true
+      })
+    } else if (this.data.canIUse){
+      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
+      // 所以此处加入 callback 以防止这种情况
+      app.userInfoReadyCallback = res => {
+        this.setData({
+          userInfo: res.userInfo,
+          hasUserInfo: true
+        })
+      }
+    } else {
+      // 在没有 open-type=getUserInfo 版本的兼容处理
+      wx.getUserInfo({
+        success: res => {
+          app.globalData.userInfo = res.userInfo
+          this.setData({
+            userInfo: res.userInfo,
+            hasUserInfo: true
+          })
+        }
+      })
+    }
+  },
+  getUserInfo: function(e) {
+    console.log(e)
+    app.globalData.userInfo = e.detail.userInfo
+    this.setData({
+      userInfo: e.detail.userInfo,
+      hasUserInfo: true
     })
   },
-  toHeatTheory: function(){
+  toDetail:function(){
     wx.navigateTo({
-      url: '/pages/heat_theory/heat_theory',
+      url: '/pages/detail/detail',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   },
-  toScience: function(){
+  toList: function(){
     wx.navigateTo({
-      url: '/pages/science/science',
-    })
-  },
-  toDetail: function(){
-    wx.navigateTo({
-      url: '/pages/science_detail/science_detail',
-    })
-  },
-  toask: function(){
-    wx.navigateTo({
-      url: '/pages/questions/questions',
-    })
-  },
-  toaskdetail: function(){
-    wx.navigateTo({
-      url: '/pages/answers/answers',
-    })
-  },
-  todisc: function(){
-    wx.navigateTo({
-      url: '/pages/heat_theory/heat_theory',
-    })
-  },
-  suo: function (e) {
-    wx.navigateTo({
-      url: '../search/search',
-    })
-  }, 
-  toDiscoverDetail:function(){
-    wx.navigateTo({
-      url: '/pages/discover_detail/discover_detail',
-    })
-  },
-  toBabyDetail:function(){
-    wx.navigateTo({
-      url: '/pages/discover_detail_baby/discover_detail_baby',
-    })
-  },
-  toMaterial: function () {
-    wx.navigateTo({
-      url: '/pages/discover_detail_material/discover_detail_material',
-    })
-  },
-  toCategory: function () {
-    wx.navigateTo({
-      url: '/pages/discover_detail_category/discover_detail_category',
-    })
-  },
-  toTopic: function () {
-    wx.navigateTo({
-      url: '/pages/topic/topic?id=1',
-    })
-  },
-  toQuestion: function(){
-    wx.navigateTo({
-      url: '/pages/my_question/my_question',
-    })
-  },
-  toW: function(){
-    console.log(1)
-    wx.reLaunch({
-      url: 'https://www.wjx.cn/jq/24233092.aspx',
+      url: '/pages/list/list'
     })
   }
-  
-
 })
