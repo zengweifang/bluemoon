@@ -6,9 +6,7 @@ Page({
    */
   data: {
     goods: [
-      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png', goodsName: '蓝月亮 深层洁净洗衣', attr: '1/瓶', price: '39.99', nums:1},
-      { id: 2, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png', goodsName: '蓝月亮 深层洁净洗衣2', attr: '2/瓶', price: '89.99', nums: 2  },
-      { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png', goodsName: '蓝月亮 深层洁净洗衣3', attr: '3/瓶', price: '159.99', nums: 3  }
+      { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-21@2x.png', goodsName: '蓝月亮 深层洁净洗衣', attr: '1/瓶', price: '29.99', nums:1}
     ]
   },
 

@@ -163,7 +163,7 @@
 }
 
 .detail_content .detail_set_meal_left .detail_set_meal_title_2 {
-  color: gainsboro;
+  color: #d2d2d2;
 }
 
 .detail_content .detail_set_meal_left .detail_set_meal_price {
@@ -176,7 +176,7 @@
 }
 
 .detail_content .detail_set_meal_left .detail_set_meal_price_r {
-  color: gainsboro;
+  color: #d2d2d2;
   padding-left: 20px;
 }
 
@@ -230,7 +230,7 @@
 }
 
 .detail_content .detail_comm_content .detail_comm_content_r .detail_comm_content-t {
-  color: gainsboro;
+  color: #d2d2d2;
 }
 
 .detail_content .detail_content_image image {

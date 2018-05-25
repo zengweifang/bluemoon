@@ -23,7 +23,7 @@
 }
 
 .order_content .order_goods .order_goods_attr{
-  color: #dedede
+  color: #d2d2d2
 }
 
 .order_content .order_goods .order_goods_l image{

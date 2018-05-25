@@ -27,7 +27,7 @@
       <view class="flex-item detail_l">优惠：满99减20</view>
       <!-- <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view> -->
     </view>
-    <view class="detail_content_stru detail_points">积分：购买最高获取2个积分</view>
+    <view class="detail_content_stru detail_points">积分：购买可获取2个积分</view>
     <view class="flex-wrp detail_content_stru" style="flex-direction:row;">
       <view class="flex-item detail_service_left"> 服务:</view>
       <view class='flex-item detail_service_middle'></view>
@@ -82,7 +82,7 @@
       <view class="flex-item detail_l">问答</view>
       <view class="weui-cell__ft weui-cell__ft_in-access detail_r"></view>
     </view>
-    <view class='flex-wrp detail_comm_content' wx:for="{{questions}}">
+    <view class='flex-wrp detail_comm_content' wx:for="{{questions}}" bindtap='toAnswer' data-id="{{item.id}}">
       <view class='flex-item detail_comm_content_l'>
         <image src='{{item.userUrl}}'></image>
       </view>

@@ -6,6 +6,25 @@
       </swiper-item>
     </block>
   </swiper>
+   <!-- <view style='width100%;height:36px;background-color:#fff;     padding-left:15px;'>
+    <view class="flex-wrp" style="flex-direction:row;" style='height:100%'>
+      <view class="flex-item" style='width:10%;color:#0464f0;line-height:36px'>资讯</view>
+      <view class="flex-item" style='width:90%'>
+        <swiper indicator-dots="{{false}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="true" duration="{{duration}}" style='width:100%;height:100%'>
+          <block>
+            <swiper-item>
+              <view>省钱妙招</view>
+              <view>省钱妙招</view>
+            </swiper-item>
+            <swiper-item>
+              <view>省钱妙招</view>
+              <view>省钱妙招</view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>  -->
   <view class='page_row'>
     <view class="search">
       <view class="df search_arr">
@@ -25,7 +44,10 @@
     </view>
   </view>
 
-  <view class='discover-help'>洗衣助手</view>
+  <view class='discover-help'>
+    <text></text> 洗衣助手
+    <text></text>
+  </view>
   <view class='discover-content'>
     <view class="flex-wrp discover-content-card" style="flex-direction:row;">
       <view class="flex-item discover-content-left" bindtap='toBabyDetail'>
@@ -47,10 +69,13 @@
         <view class='discover-content-title'>衣物材质</view>
       </view>
     </view>
-    <view class='discover-help'>洗衣达人</view>
+    <view class='discover-help'>
+      <text></text>洗衣达人
+      <text></text>
+    </view>
     <view class="flex-wrp discover-content-card discover-content-discuss" style="flex-direction:row;">
       <view class="flex-item discover-content-big" bindtap='todisc'>
-        <image src='http://p95v2ft9v.bkt.clouddn.com/mall/banner@2x.png' mode="widthFix"></image>
+        <image src='http://p95v2ft9v.bkt.clouddn.com/WechatIMG929.jpeg' mode="widthFix"></image>
         <view class='discover-content-title'>每周热论</view>
       </view>
     </view>

@@ -34,7 +34,7 @@
   </view>
   <view class="flex-wrp order_content_height order_margin" style="flex-direction:row;">
     <view class="flex-item order_content_l">商品金额</view>
-    <view class="flex-item order_content_r order_goods_price">￥88.88</view>
+    <view class="flex-item order_content_r order_goods_price">￥29.99</view>
   </view>
   <view class="flex-wrp order_content_height" style="flex-direction:row;">
     <view class="flex-item order_content_l">运费</view>
@@ -58,7 +58,7 @@
   </view>
   <view class="footer-box">
     <view class="shop-cart-btn order_goods_price" bindtap="goShopCar">
-      合计 ￥999
+      合计 ￥9.99
     </view>
     <view class="now-buy" bindtap="tobuy">提交订单</view>
   </view>

@@ -293,7 +293,9 @@
 }
 .page_personal_b_l, .page_personal_b_r{
   width: 50%;
-  border-radius: 10px
+  border-radius: 10px;
+  /* background-color: #ffffff; */
+  margin-bottom: 10px;
 }
 
 .page_personal_b_l{
@@ -302,4 +304,31 @@
 
 .page_personal_b image{ 
   width: 100%
+}
+
+.page_price{
+  padding-left: 10px
+}
+
+.page_price text{
+  color: #FF6A6A
+}
+
+.page_label text{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #d2d2d2;
+  transform: rotate(50deg);
+  margin: 0 5px
+}
+
+.page_bgr{
+  background-color: #ffffff;
+  
+}
+
+.page_shadow{
+  box-shadow: 1px 1px 10px #d2d2d2;
+  border-radius: 10px
 }
