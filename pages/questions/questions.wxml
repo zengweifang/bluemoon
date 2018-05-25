@@ -7,11 +7,11 @@
     </block>
   </swiper> -->
   <!-- <view class='questions_title'>为你推荐</view> -->
-  <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toDetail'>
+  <view class="flex-wrp questions_content" style="flex-direction:row;" wx:for="{{questions}}" bindtap='toAnswer' data-id="{{item.id}}">
     <view class="flex-item questions_content_image">
       <image src='{{item.userUrl}}' mode="widthFix"></image>
     </view>
-    <view class="flex-item questions_content_text" bindtap='toAnswer' data-id="{{item.id}}">
+    <view class="flex-item questions_content_text"  >
       <view class='questions_content_t'>{{item.title}}</view>
       <view class='questions_content_m'><image src='{{item.icon}}'></image> {{item.title_2}}</view>
       <view class='questions_content_b'>查看全部{{item.nums}}</view>
