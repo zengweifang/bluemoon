@@ -14,7 +14,7 @@
     <view class="flex-item questions_content_text" bindtap='toAnswer' data-id="{{item.id}}">
       <view class='questions_content_t'>{{item.title}}</view>
       <view class='questions_content_m'><image src='{{item.icon}}'></image> {{item.title_2}}</view>
-      <view class='questions_content_b'>查看全部9个答案</view>
+      <view class='questions_content_b'>查看全部{{item.nums}}</view>
     </view>
   </view>
   <view class="footer-box" bindtap='toAsk'>

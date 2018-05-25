@@ -23,17 +23,17 @@ Page({
     ],
     questions1: [
       {
-        id: 1, title: 'Jack', title_2: '使用洗衣粉和洗衣皂可能造成洗涤成分或碱性残留，刺激宝宝皮肤，出现肌肤瘙痒和过敏等问题！', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png'
+        id: 1, title: 'vincent', title_2: '使用洗衣粉和洗衣皂可能造成洗涤成分或碱性残留，刺激宝宝皮肤，出现肌肤瘙痒和过敏等问题！', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png'
       },
-      { id: 2, title: 'Lily', title_2: '清洗宝宝衣物多使用手洗，碱性洗衣剂会让皮肤表面过分脱脂，令皮肤干涩或造成过敏，长期使用会形成“主妇手”', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' },
-      { id: 3, title: 'Nice', title_2: '可以用洗衣液', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' }
+      { id: 2, title: 'vincent', title_2: '清洗宝宝衣物多使用手洗，碱性洗衣剂会让皮肤表面过分脱脂，令皮肤干涩或造成过敏，长期使用会形成“主妇手”', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' },
+      { id: 3, title: 'vincent', title_2: '可以用洗衣液', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' }
     ],
     questions11: [
       {
-        id: 1, title: 'Alice', title_2: '不可以用肥皂', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png'
+        id: 1, title: 'yolanda', title_2: '不可以用肥皂', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg'
       },
-      { id: 2, title: 'Tom', title_2: '不可以用洗衣粉', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' },
-      { id: 3, title: 'Sunny', title_2: '可以用洗衣液', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/login@2x.png' }
+      { id: 2, title: 'yolanda', title_2: '不可以用洗衣粉', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg' },
+      { id: 3, title: 'yolanda', title_2: '可以用洗衣液', time: '2018-08-08', goodsUrl: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg' }
     ],
     imageUrl2: [
       { id: 1, url: 'http://p95v2ft9v.bkt.clouddn.com/disco/13.jpeg' }
@@ -65,7 +65,7 @@ Page({
         questionsL: this.data.questions1,
         questionsR: this.data.questions11,
         title:'宝宝衣服能用洗衣液/洗衣粉/肥皂吗？',
-        result:'阅读 1089 参与 656'
+        result:'阅读 88 参与 6'
       })
     }
     if (options.id ==2){
@@ -74,7 +74,7 @@ Page({
         questionsL: this.data.questions21,
         questionsR: this.data.questions22,
         title: '羊毛衫怎么洗？',
-        result: '阅读 1089 参与 656'
+        result: '阅读 88 参与 6'
       })
     }
 

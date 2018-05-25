@@ -20,7 +20,7 @@
             {{item.rank}}
           </view>
           <view class="flex-item" style='width:15%'>
-            <image src='{{item.url}}' style='width:30px;height:30px'></image>
+            <image src='{{item.url}}' style='width:30px;' mode='widthFix'></image>
           </view>
           <view class="flex-item" style='width:50%'>
             {{item.name}}

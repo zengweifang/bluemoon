@@ -11,7 +11,7 @@
   <view class='page_personal'>
     <view class='page_label'>私人定制</view>
     <view class='page_personal_img_t' bindtap='toDetail'>
-      <image src='http://p95v2ft9v.bkt.clouddn.com/banner2@2x.png' mode="widthFix"></image>
+      <image src='http://p95v2ft9v.bkt.clouddn.com/mall/banner2@2x.png' mode="widthFix"></image>
     </view>
     <view class="flex-wrp page_personal_b">
       <view class="flex-item page_personal_b_l" bindtap='toDetail'>

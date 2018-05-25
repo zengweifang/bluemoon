@@ -314,3 +314,9 @@
   right:10px;
   bottom:180px
 }
+
+.discover_fixed image{
+  background-color:#fff;
+  border-radius:50%;
+  width:40px;
+}

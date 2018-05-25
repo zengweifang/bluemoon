@@ -15,14 +15,14 @@ Page({
       { id: 3, url: 'http://p95v2ft9v.bkt.clouddn.com/mall/%E7%BB%84-11@2x.png' }
     ],
     questions:[
-      { id: 1, value: '更超市的一样吗？', nums: 9, userUrl:'../images/icon_off/people.png'},
-      { id: 2, value: '更超市的一样吗？', nums: 10, userUrl: '../images/icon_off/people.png' },
-      { id: 3, value: '更超市的一样吗？', nums: 9, userUrl: '../images/icon_off/people.png' },
-      { id: 4, value: '更超市的一样吗？', nums: 10, userUrl: '../images/icon_off/people.png' }
+      { id: 1, value: '6个月的宝宝的衣服可以用洗衣液洗吗？', nums: 9, userUrl:'../images/icon_off/people.png'},
+      { id: 2, value: '家里的孩子贪玩，一次把半瓶洗衣液给倒进洗衣机了，怎么办？', nums: 10, userUrl: '../images/icon_off/people.png' },
+      { id: 3, value: '可以洗内衣吗？', nums: 9, userUrl: '../images/icon_off/people.png' },
+      { id: 4, value: '洗得干净吗', nums: 10, userUrl: '../images/icon_off/people.png' }
     ],
     comms:[
-      { id: 1, userName: '用户01', time: "2018-08-08", comment: '非常满意！', userUrl: '../images/icon_off/people.png' },
-      { id: 2, userName: '用户02', time: "2018-08-08", comment: 'nice!', userUrl: '../images/icon_off/people.png'}
+      { id: 1, userName: '用户01', time: "2018-08-08", comment: '蓝月亮洗衣液好用，洗的干净易清洗味道好闻', userUrl: '../images/icon_off/people.png' },
+      { id: 2, userName: '用户02', time: "2018-08-08", comment: '性价比很高，买了好几次了，一公斤，的，蓝月亮洗衣服，香喷喷的世勋薰衣草味的，很喜欢，满意家人一直都用这个品牌，性价比很高很满意的一次购物', userUrl: '../images/icon_off/people.png'}
     ],
     shopCarInfo:{},
     shopNum:0

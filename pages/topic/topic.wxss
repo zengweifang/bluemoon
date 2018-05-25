@@ -10,7 +10,8 @@
 
 .questions{
   font-size: 12px;
-  padding-bottom: 50px
+  padding-bottom: 50px;
+  overflow-x: hidden;
 }
 .questions .questions_content{
   padding: 20px 15px;

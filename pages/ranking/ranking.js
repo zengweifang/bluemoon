@@ -17,35 +17,35 @@ Page({
         id: 2,
         rank: 2,
         name: 'yolanda',
-        url: '../images/nav_@2x/login@2x.png',
+        url: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg',
         integral: 666
       },
       {
         id: 3,
         rank: 3,
         name: 'vincent',
-        url: '../images/nav_@2x/login@2x.png',
+        url: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg',
         integral: 666
       },
       {
         id: 4,
         rank: 4,
         name: 'yolanda',
-        url: '../images/nav_@2x/login@2x.png',
+        url: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg',
         integral: 666
       },
       {
         id: 5,
         rank: 5,
         name: 'vincent',
-        url: '../images/nav_@2x/login@2x.png',
+        url: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg',
         integral: 666
       },
       {
         id: 6,
         rank: 6,
         name: 'yolanda',
-        url: '../images/nav_@2x/login@2x.png',
+        url: 'http://p95v2ft9v.bkt.clouddn.com/toux02.jpeg',
         integral: 666
       }
     ]

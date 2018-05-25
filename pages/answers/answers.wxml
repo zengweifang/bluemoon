@@ -1,17 +1,17 @@
 <view class="page">
   <view class="flex-wrp answers answers_bgr" style="flex-direction:row;">
     <view class="flex-item answers_title_image">
-      <image src='../images/icon_off/people.png'></image>
+      <image src='{{url}}'></image>
     </view>
     <view class="flex-item answers_title_c">
-      <view class='answers_title_c_name'>用户</view>
+      <view class='answers_title_c_name'>{{name}}</view>
       <view class='answers_title_c_time'>2018-05-20</view>
       <view class='answers_title_c_a'>
         <image src='../images/icon_off/问.png'></image> {{title}}
       </view>
     </view>
   </view>
-  <view class='answers_title_a'>17个回答</view>
+  <view class='answers_title_a'>{{comms.length}}个回答</view>
   <view class="flex-wrp answers answers_c" style="flex-direction:row;" wx:for="{{comms}}">
     <view class="flex-item answers_title_image">
       <image src='{{item.userUrl}}'></image>

@@ -14,7 +14,7 @@
 }
 
 .page .my_question .my_question_desc_value {
-  border: 1px solid #dedede
+  border: 1px solid #f2f2f2
 }
 
 .page .my_question .my_question_desc_value textarea{

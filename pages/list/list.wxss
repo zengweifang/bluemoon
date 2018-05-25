@@ -6,7 +6,9 @@
 .page .page_list{
   background-color: #ffffff;
   margin-bottom: 1px;
-  padding: 20px 0
+  padding: 20px 0;
+  border-radius:10px;
+  margin:15px;
 }
 
 .page .page_list .page_list_r{
